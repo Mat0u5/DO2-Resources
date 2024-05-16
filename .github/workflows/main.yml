@@ -68,7 +68,7 @@ jobs:
         host: ${{ secrets.FTP_HOST }}
         port: ${{ secrets.FTP_PORT }}
         src: server2.properties
-        dest: test/server.properties
+        dest: server.properties
         verbose: true
     
     - name: Create Release
@@ -93,10 +93,6 @@ jobs:
         asset_name: ${{ env.ZIP_NAME }}
         asset_content_type: application/zip
     
-    - name: Dump vars context
-      env:
-        VARS_JSON: ${{ toJSON(vars) }}
-      run: echo "${VARS_JSON}"
     - name: Discord Message
       uses: satak/webrequest-action@master
       with:
