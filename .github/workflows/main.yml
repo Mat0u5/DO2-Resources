@@ -38,6 +38,14 @@ jobs:
       run: |
         echo CHECKSUM="$(shasum ${{ env.ZIP_NAME }} | awk '{ print $1 }')" >> "$GITHUB_ENV"
         
+    - name: Get File Size
+      run: |
+        echo FILE_SIZE_COMPRESSED="$({ find . -type f -name "${{ env.ZIP_NAME }}" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
+        echo FILE_SIZE_UNCOMPRESSED="$(unzip -l RP.zip | tail -1 | xargs | cut -d' ' -f1 | numfmt --to=iec)B" >> "$GITHUB_ENV"
+        echo FILE_SIZE_JSON="$({ find assets/ -type f -name "*.json" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
+        echo FILE_SIZE_PNG="$({ find assets/ -type f -name "*.png" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
+        echo FILE_SIZE_OGG="$({ find assets/ -type f -name "*.ogg" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
+        
     - name: Copy server.properties
       uses: canastro/copy-file-action@master
       with:
@@ -98,4 +106,4 @@ jobs:
       with:
         url: https://discord.com/api/webhooks/1240765928656863323/_dgSCfLsH-ztxxn11FDENgYdCdroJ03Cquuvh4BMDSE_qVKgQjRu97hx62Mbo4TyBqIb
         method: POST
-        payload: '{ "embeds": [{ "title": "New Resource Pack Release", "description": "Release ID: release-${{ github.sha }}\nPermanent Latest Resource Pack Link: [here](https://github.com/${{ github.repository }}/releases/latest/download/${{ env.ZIP_NAME }})\nDirect Current Resource Pack Link: [here](https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }})\nSHA1: ${{env.CHECKSUM}}", "url": "https://github.com/${{ github.repository }}/releases/tag/release-${{ github.sha }}", "color": 3384627 }] }'
+        payload: '{ "embeds": [{ "title": "New Resource Pack Release", "description": "Release ID: release-${{ github.sha }}\nPermanent Latest Resource Pack Link: [here](https://github.com/${{ github.repository }}/releases/latest/download/${{ env.ZIP_NAME }})\nDirect Current Resource Pack Link: [here](https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }})\nSHA1: ${{env.CHECKSUM}}\n\nResource Pack Size (**compressed**): ${{ env.FILE_SIZE_COMPRESSED }}\nResource Pack Size (**uncompressed**): ${{ env.FILE_SIZE_UNCOMPRESSED }}\n> .ogg files: ${{ env.FILE_SIZE_OGG }}\n> .json files: ${{ env.FILE_SIZE_JSON }}\n> .png files: ${{ env.FILE_SIZE_PNG }}", "url": "https://github.com/${{ github.repository }}/releases/tag/release-${{ github.sha }}", "color": 3384627 }] }'

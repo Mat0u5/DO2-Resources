@@ -153,6 +153,17 @@
     {"predicate": {"custom_model_data":501}, "model": "custom:item/do/custom_items/uncommons_stack"},
     {"predicate": {"custom_model_data":502}, "model": "custom:item/do/custom_items/rares_stack"},
     {"predicate": {"custom_model_data":503}, "model": "custom:item/do/custom_items/legendaries_stack"},
-    {"predicate": {"custom_model_data":504}, "model": "custom:item/do/custom_items/all_stack"}
+    {"predicate": {"custom_model_data":504}, "model": "custom:item/do/custom_items/all_stack"},
+    {"predicate": {"custom_model_data":505}, "model": "custom:item/do/custom_items/all_pile"},
+    {"predicate": {"custom_model_data":506}, "model": "custom:item/do/custom_items/ethereal_cards"},
+    {"predicate": {"custom_model_data":507}, "model": "custom:item/do/custom_items/cardback"},
+    {"predicate": {"custom_model_data":508}, "model": "custom:item/do/custom_items/unknown_cards_1"},
+    {"predicate": {"custom_model_data":509}, "model": "custom:item/do/custom_items/unknown_cards_2"},
+    {"predicate": {"custom_model_data":510}, "model": "custom:item/do/custom_items/unknown_cards_3"},
+    {"predicate": {"custom_model_data":511}, "model": "custom:item/do/custom_items/unknown_cards_4"},
+    {"predicate": {"custom_model_data":512}, "model": "custom:item/do/custom_items/shards_3"},
+    {"predicate": {"custom_model_data":513}, "model": "custom:item/do/custom_items/shards_5"},
+    {"predicate": {"custom_model_data":514}, "model": "custom:item/do/custom_items/shards_7"},
+    {"predicate": {"custom_model_data":515}, "model": "custom:item/do/custom_items/shards_10"}
   ]
 }
