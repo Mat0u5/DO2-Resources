@@ -68,16 +68,16 @@ jobs:
         replace: "\nresource-pack-sha1=${{env.CHECKSUM}}"
         regex: false
           
-    - name: Upload To FileZilla
-      uses: tomasbkk/action-ftp-upload@v1.0
-      with:
-        user: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        host: ${{ secrets.FTP_HOST }}
-        port: ${{ secrets.FTP_PORT }}
-        src: server2.properties
-        dest: server.properties
-        verbose: true
+    #- name: Upload To FileZilla
+    #  uses: tomasbkk/action-ftp-upload@v1.0
+    #  with:
+    #    user: ${{ secrets.FTP_USER }}
+    #    password: ${{ secrets.FTP_PASSWORD }}
+    #    host: ${{ secrets.FTP_HOST }}
+    #    port: ${{ secrets.FTP_PORT }}
+    #    src: server2.properties
+    #    dest: server.properties
+    #    verbose: true
     
     - name: Create Release
       id: create_release
@@ -104,6 +104,6 @@ jobs:
     - name: Discord Message
       uses: satak/webrequest-action@master
       with:
-        url: https://discord.com/api/webhooks/1240765928656863323/_dgSCfLsH-ztxxn11FDENgYdCdroJ03Cquuvh4BMDSE_qVKgQjRu97hx62Mbo4TyBqIb
+        url: https://discord.com/api/webhooks/1240692023431008396/2UueCf7QtrgSK8pR3Rf_eevV8sAqvVi5h1qmVl46JOAZVia-4Qb004-fKKYo1foCs4WJ
         method: POST
         payload: '{ "embeds": [{ "title": "New Resource Pack Release", "description": "Release ID: release-${{ github.sha }}\nPermanent Latest Resource Pack Link: [here](https://github.com/${{ github.repository }}/releases/latest/download/${{ env.ZIP_NAME }})\nDirect Current Resource Pack Link: [here](https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }})\nSHA1: ${{env.CHECKSUM}}\n\nResource Pack Size (**compressed**): ${{ env.FILE_SIZE_COMPRESSED }}\nResource Pack Size (**uncompressed**): ${{ env.FILE_SIZE_UNCOMPRESSED }}\n> .ogg files: ${{ env.FILE_SIZE_OGG }}\n> .json files: ${{ env.FILE_SIZE_JSON }}\n> .png files: ${{ env.FILE_SIZE_PNG }}", "url": "https://github.com/${{ github.repository }}/releases/tag/release-${{ github.sha }}", "color": 3384627 }] }'
