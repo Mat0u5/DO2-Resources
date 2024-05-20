@@ -124,6 +124,61 @@
             "do/2f919cf2-5285-4368-b68b-a8bc3c88b30f"
         ]
     },
+    "do_hazard_hazardtrigger_set1_4": {
+        "sounds": [
+            "do/24dfa4c-b4d3-4467-877b-a79d7427a91a"
+        ]
+    },
+    "do_ambient_drone_deepfrost_4": {
+        "sounds": [
+            "do/28d2142-e139-4177-9a5e-6a223367da9a"
+        ]
+    },
+    "do_atmospherics_metalcreak_2": {
+        "sounds": [
+            "do/296d2d7-d6e2-48e7-b678-8ad6a782c0e0"
+        ]
+    },
+    "do_holloween_failure_1": {
+        "sounds": [
+            "do/2e5657f-9d7b-494e-b38d-aaca1f522d2a"
+        ]
+    },
+    "do_deepfrost_openingexplosion": {
+        "sounds": [
+            "do/5714a7-36d1-4c21-9c2b-38317f00d6d4"
+        ]
+    },
+    "do_holloween_success_1": {
+        "sounds": [
+            "do/477400c-a6c4-4be1-9248-8c54533f2a42"
+        ]
+    },
+    "do_atmospherics_cavegust_1": {
+        "sounds": [
+            "do/4e9c2c9-c961-48e4-80d1-c182d13f42a8"
+        ]
+    },
+    "do_hazard_hazardblocked_set1_9": {
+        "sounds": [
+            "do/51d61e3-ad2c-474b-b942-7f14934e560d"
+        ]
+    },
+    "do_ambient_drone_deepfrost_11": {
+        "sounds": [
+            "do/bbbec08-c4c5-4dc8-ad6c-09818a8ef1c0"
+        ]
+    },
+    "do_atmospherics_icecracks_2": {
+        "sounds": [
+            "do/bd48f07-0030-441b-be9e-e9191ed946c8"
+        ]
+    },
+    "do_atmospherics_woodcreak_5": {
+        "sounds": [
+            "do/c10036e-1f7c-4163-903c-1f512807e3ee"
+        ]
+    },
     "do_card_recycle_7": {
         "sounds": [
             "do/40356557-dcc1-4ef5-a830-089493d7fbab"
@@ -166,7 +221,7 @@
     },
     "do_atmospherics_metalcreak_9": {
         "sounds": [
-            "do/4da80035-5a28-44b5-9840-6d38536bc5d3"
+            "do/4da80035-5a28-44b5-9840-6d38536bc5d"
         ]
     },
     "avalanche": {
@@ -201,7 +256,7 @@
     },
     "do_holloween_entrancetune_3": {
         "sounds": [
-            "do/5bf4c518-2e69-47d4-9559-5756cc5e2343"
+            "do/5bf4c518-2e69-47d4-9559-5756cc5e234"
         ]
     },
     "do_ambient_drone_deepfrost_17": {
@@ -281,7 +336,7 @@
     },
     "do_clank_clankblocked_set1_9": {
         "sounds": [
-            "do/7021b624-ae1a-4ce0-a333-b00ffebc6913"
+            "do/7021b624-ae1a-4ce0-a333-b00ffebc691"
         ]
     },
     "second_wind": {
@@ -426,7 +481,7 @@
     },
     "do_card_recycle_3": {
         "sounds": [
-            "do/96cef58f-74c5-42f5-9d4f-812f6a41a253"
+            "do/96cef58f-74c5-42f5-9d4f-812f6a41a25"
         ]
     },
     "warden_emerge": {
@@ -613,7 +668,7 @@
     },
     "do_hazard_hazardtrigger_set1_5": {
         "sounds": [
-            "do/dbff3a00-431b-48aa-b133-a1e8a8fcd173"
+            "do/dbff3a00-431b-48aa-b133-a1e8a8fcd17"
         ]
     },
     "do_atmospherics_cavegust_6": {
@@ -648,7 +703,7 @@
     },
     "do_hazard_hazardblocked_set1_6": {
         "sounds": [
-            "do/e7568f4d-48fd-46be-92bf-9ab34e3f8373"
+            "do/e7568f4d-48fd-46be-92bf-9ab34e3f837"
         ]
     },
     "do_atmospherics_icecracks_8": {
@@ -774,6 +829,11 @@
     "do_revelation": {
         "sounds": [
             "do/3920bd90-1096-4c09-ad01-0ec9461fc91c"
+	]
+    },
+    "do_deepfrost_explosion": {
+        "sounds": [
+            "do/335714a7-36d1-4c21-9c2b-38317f00d6d4"
 	]
     },
     "do_ember_shop_opening": {
