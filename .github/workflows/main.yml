@@ -3,7 +3,7 @@ name: Resourcepack Zipper
 on:
   push:
     branches:
-      - main  # Adjust this branch name if needed
+      - testing  # Adjust this branch name if needed
 
 jobs:
   build:
