@@ -47,6 +47,8 @@
 	{"predicate": {"custom_model_data":44}, "model": "custom:item/do/artifacts/crookofthepinkshepherd"},
 	{ "predicate": {"custom_model_data": 45}, "model": "custom:item/tcg_prize_evilx"},
 	
+    {"predicate": {"custom_model_data":46}, "model": "custom:item/do/artifacts/ontiball"},
+	
    { "predicate": {"custom_model_data": 101}, "model": "custom:item/do/cards/stumble"},
    { "predicate": {"custom_model_data": 102}, "model": "custom:item/do/cards/sneak"},
    { "predicate": {"custom_model_data": 103}, "model": "custom:item/do/cards/treasure_hunter"},

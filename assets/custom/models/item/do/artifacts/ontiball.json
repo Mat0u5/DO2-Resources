@@ -1,0 +1,12 @@
+{
+    "parent": "custom:item/sphere",
+    "textures": {
+        "n": "custom:item/do/artifacts/ontiball",
+        "s": "custom:item/do/artifacts/ontiball",
+        "e": "custom:item/do/artifacts/ontiball",
+        "w": "custom:item/do/artifacts/ontiball",
+        "u": "custom:item/do/artifacts/ontiball",
+        "d": "custom:item/do/artifacts/ontiball",
+        "particle": "custom:item/do/artifacts/ontiball"
+    }
+}

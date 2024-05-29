@@ -935,5 +935,10 @@
         "sounds": [
             "do/do_eviction"
         ]
+    },
+    "wrong_compass": {
+        "sounds": [
+            "do/wrong_artifact_spot"
+        ]
     }
 }
