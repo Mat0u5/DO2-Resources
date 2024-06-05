@@ -48,6 +48,17 @@
 	{ "predicate": {"custom_model_data": 45}, "model": "custom:item/tcg_prize_evilx"},
 	
     {"predicate": {"custom_model_data":46}, "model": "custom:item/do/artifacts/ontiball"},
+    {"predicate": {"custom_model_data":47}, "model": "custom:item/do/artifacts/notes"},
+    {"predicate": {"custom_model_data":48}, "model": "custom:item/do/artifacts/cloak"},
+    {"predicate": {"custom_model_data":49}, "model": "custom:item/do/artifacts/tie"},
+    {"predicate": {"custom_model_data":50}, "model": "custom:item/do/artifacts/hauntertrigger"},
+    {"predicate": {"custom_model_data":51}, "model": "custom:item/do/artifacts/chip"},
+    {"predicate": {"custom_model_data":52}, "model": "custom:item/do/artifacts/superspanner"},
+    {"predicate": {"custom_model_data":53}, "model": "custom:item/do/artifacts/doormat"},
+    {"predicate": {"custom_model_data":54}, "model": "custom:item/do/artifacts/citadellaptop"},
+    {"predicate": {"custom_model_data":55}, "model": "custom:item/do/artifacts/glitchcoin"},
+    {"predicate": {"custom_model_data":56}, "model": "custom:item/do/artifacts/ironfist"},
+    {"predicate": {"custom_model_data":57}, "model": "custom:item/do/artifacts/payday"},
 	
    { "predicate": {"custom_model_data": 101}, "model": "custom:item/do/cards/stumble"},
    { "predicate": {"custom_model_data": 102}, "model": "custom:item/do/cards/sneak"},
