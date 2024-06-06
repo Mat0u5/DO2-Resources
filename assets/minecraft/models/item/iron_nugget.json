@@ -134,6 +134,9 @@
    { "predicate": {"custom_model_data": 170}, "model": "custom:item/do/cards/dead_mans_hand"},
    { "predicate": {"custom_model_data": 171}, "model": "custom:item/do/cards/mary_poppins"},
    
+	{"predicate": {"custom_model_data":198}, "model": "custom:item/do/keys/staircase1"},
+	{"predicate": {"custom_model_data":199}, "model": "custom:item/do/keys/staircase2"},
+	{"predicate": {"custom_model_data":200}, "model": "custom:item/do/keys/staircase3"},
 	{"predicate": {"custom_model_data":201}, "model": "custom:item/do/keys/do_key1"},
 	{"predicate": {"custom_model_data":202}, "model": "custom:item/do/keys/do_key2"},
 	{"predicate": {"custom_model_data":203}, "model": "custom:item/do/keys/do_key4"},
