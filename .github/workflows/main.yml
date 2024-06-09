@@ -112,6 +112,6 @@ jobs:
     - name: Discord Message #2
       uses: satak/webrequest-action@master
       with:
-        url: ${{ secrets.DISCORD_WEBHOOK_TESTING }}
+        url: ${{ secrets.DISCORD_WEBHOOK_CONSOLE }}
         method: POST
-        payload: '{"content":"resourcepack setLatestResourcepack \"https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}\" ${{env.CHECKSUM}}"}'
+        payload: '{"content":"tellraw Mat0u5 {\"text\":\"TESTT\",\"color\":\"red\"}"}'
