@@ -46,39 +46,26 @@ jobs:
         echo FILE_SIZE_PNG="$({ find assets/ -type f -name "*.png" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
         echo FILE_SIZE_OGG="$({ find assets/ -type f -name "*.ogg" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
         
-    #- name: Copy server.properties
-    #  uses: canastro/copy-file-action@master
-    #  with:
-    #    source: "server.properties"
-    #    target: "server2.properties"
-    #    
-    #- name: Edit server.properties
-    #  uses: jacobtomlinson/gha-find-replace@v3
-    #  with:
-    #    path: server2.properties
-    #    find: "\nresource-pack="
-    #    #(Removed https://, to disable automatic RP load on server join, as it's now done with a cusotm mod) replace: "\nresource-pack=https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}"
-    #    replace: "\nresource-pack=github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}"
-    #    regex: false
-    #    
-    #- name: Edit server.properties #2
-    #  uses: jacobtomlinson/gha-find-replace@v3
-    #  with:
-    #    path: server2.properties
-    #    find: "\nresource-pack-sha1="
-    #    replace: "\nresource-pack-sha1=${{env.CHECKSUM}}"
-    #    regex: false
-    #      
-    #- name: Upload To FileZilla
-    #  uses: tomasbkk/action-ftp-upload@v1.0
-    #  with:
-    #    user: ${{ secrets.FTP_USER }}
-    #    password: ${{ secrets.FTP_PASSWORD }}
-    #    host: ${{ secrets.FTP_HOST }}
-    #    port: ${{ secrets.FTP_PORT }}
-    #    src: server2.properties
-    #    dest: server.properties
-    #    verbose: true
+    - name: Create serverresourcepackreload.properties
+      uses: 1arp/create-a-file-action@0.4.5
+      with:
+        path: ''
+        isAbsolutePath: false
+        file: 'serverresourcepackreload.properties'
+        content: |
+          resourcepack.url=https\://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}
+          resourcepack.sha1=${{env.CHECKSUM}}
+          
+    - name: Upload To FileZilla
+      uses: tomasbkk/action-ftp-upload@v1.0
+      with:
+        user: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        host: ${{ secrets.FTP_HOST }}
+        port: ${{ secrets.FTP_PORT }}
+        src: serverresourcepackreload.properties
+        dest: config/serverresourcepackreload.properties
+        verbose: true
     
     - name: Create Release
       id: create_release
@@ -108,11 +95,3 @@ jobs:
         url: ${{ secrets.DISCORD_WEBHOOK }}
         method: POST
         payload: '{ "embeds": [{ "title": "New Resource Pack Release", "author": {"name": "${{ github.event.head_commit.author.name}}","url": "https://github.com/${{ github.event.head_commit.author.username}}","icon_url": "https://github.com/${{ github.event.head_commit.author.username}}.png"},"description": "```Commit Message:\n\n${{ github.event.head_commit.message }}```\nGithub changelog: [here](https://github.com/${{ github.repository }}/commit/${{ github.sha }})\nPermanent link to latest resource pack: [here](https://github.com/${{ github.repository }}/releases/latest/download/${{ env.ZIP_NAME }})\nLink to this resource pack: [here](https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }})\nRelease ID: release-${{ github.sha }}\nSHA1: ${{env.CHECKSUM}}\n\nResource Pack Size (**compressed**): ${{ env.FILE_SIZE_COMPRESSED }}\nResource Pack Size (**uncompressed**): ${{ env.FILE_SIZE_UNCOMPRESSED }}\n> .ogg files: ${{ env.FILE_SIZE_OGG }}\n> .json files: ${{ env.FILE_SIZE_JSON }}\n> .png files: ${{ env.FILE_SIZE_PNG }}", "url": "https://github.com/${{ github.repository }}/releases/tag/release-${{ github.sha }}", "color": 3384627 }] }'
-
-    
-    - name: Discord Message #2 (sent to minecraft)
-      uses: satak/webrequest-action@master
-      with:
-        url: ${{ secrets.DISCORD_WEBHOOK_CONSOLE }}
-        method: POST
-        payload: '{"content":"resourcepack setLatestResourcepack \"https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}\" ${{env.CHECKSUM}}"}'
