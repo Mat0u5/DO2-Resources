@@ -53,8 +53,8 @@ jobs:
         isAbsolutePath: false
         file: 'serverresourcepackreload.properties'
         content: |
-          Hello
-          World
+          resourcepack.url=https\://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}
+          resourcepack.sha1=${{env.CHECKSUM}}
     - name: Upload To FileZilla
       uses: tomasbkk/action-ftp-upload@v1.0
       with:
