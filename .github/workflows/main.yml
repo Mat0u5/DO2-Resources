@@ -109,9 +109,9 @@ jobs:
         payload: '{ "embeds": [{ "title": "New **TESTING** Resource Pack Release", "author": {"name": "${{ github.event.head_commit.author.name}}","url": "https://github.com/${{ github.event.head_commit.author.name}}","icon_url": "https://github.com/${{ github.event.head_commit.author.name}}.png"},"description": "```Commit Message:\n\n${{ github.event.head_commit.message }}```\nGithub changelog: [here](https://github.com/${{ github.repository }}/commit/${{ github.sha }})\nPermanent link to latest resource pack: [here](https://github.com/${{ github.repository }}/releases/latest/download/${{ env.ZIP_NAME }})\nLink to this resource pack: [here](https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }})\nRelease ID: release-${{ github.sha }}\nSHA1: ${{env.CHECKSUM}}\n\nResource Pack Size (**compressed**): ${{ env.FILE_SIZE_COMPRESSED }}\nResource Pack Size (**uncompressed**): ${{ env.FILE_SIZE_UNCOMPRESSED }}\n> .ogg files: ${{ env.FILE_SIZE_OGG }}\n> .json files: ${{ env.FILE_SIZE_JSON }}\n> .png files: ${{ env.FILE_SIZE_PNG }}", "url": "https://github.com/${{ github.repository }}/releases/tag/release-${{ github.sha }}", "color": 3384627 }] }'
 
 
-    - name: Discord Message #2
-      uses: satak/webrequest-action@master
+    - name: send message
+      uses: appleboy/discord-action@master
       with:
-        url: ${{ secrets.DISCORD_WEBHOOK_CONSOLE }}
-        method: POST
-        payload: '{"text":"tell Mat0u5 test"}'
+        webhook_id: ${{ secrets.DISCORD_WEBHOOK_CONSOLE_ID }}
+        webhook_token: ${{ secrets.DISCORD_WEBHOOK_CONSOLE_TOKEN }}
+        message: tell Mat0u5 test
