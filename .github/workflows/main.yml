@@ -114,4 +114,4 @@ jobs:
       with:
         url: ${{ secrets.DISCORD_WEBHOOK_CONSOLE }}
         method: POST
-        payload: '{"content":"tellraw Mat0u5 {\"text\":\"TESTT\",\"color\":\"red\"}"}'
+        payload: 'tell Mat0u5 test'
