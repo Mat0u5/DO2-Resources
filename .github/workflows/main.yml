@@ -49,7 +49,7 @@ jobs:
     - name: Create serverresourcepackreload.properties
       uses: 1arp/create-a-file-action@0.4.5
       with:
-        path: 'src'
+        path: ''
         isAbsolutePath: false
         file: 'serverresourcepackreload.properties'
         content: |
