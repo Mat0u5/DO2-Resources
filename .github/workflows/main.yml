@@ -46,6 +46,25 @@ jobs:
         echo FILE_SIZE_PNG="$({ find assets/ -type f -name "*.png" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
         echo FILE_SIZE_OGG="$({ find assets/ -type f -name "*.ogg" -printf "%s+"; echo 0; } | bc | numfmt --to=iec)B" >> "$GITHUB_ENV"
     
+    - name: Create serverresourcepackreload.properties
+      uses: 1arp/create-a-file-action@0.4.5
+      with:
+        path: 'src'
+        isAbsolutePath: false
+        file: 'serverresourcepackreload.properties'
+        content: |
+          Hello
+          World
+    - name: Upload To FileZilla
+      uses: tomasbkk/action-ftp-upload@v1.0
+      with:
+        user: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        host: ${{ secrets.FTP_HOST }}
+        port: ${{ secrets.FTP_PORT }}
+        src: serverresourcepackreload.properties
+        dest: config/serverresourcepackreload2.properties
+        verbose: true
     #- name: Copy server.properties
     #  uses: canastro/copy-file-action@master
     #  with:
