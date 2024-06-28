@@ -1,0 +1,32 @@
+{
+	"providers": [
+		{
+			"type": "reference",
+			"id": "custom:custom_icons"
+		},
+		{
+			"type": "reference",
+			"id": "custom:empty_spaces"
+		},
+		{
+			"type": "reference",
+			"id": "custom:buttons"
+		},
+		{
+			"type": "reference",
+			"id": "custom:gui"
+		},
+		{
+			"type": "reference",
+			"id": "minecraft:include/space"
+		},
+		{
+			"type": "reference",
+			"id": "minecraft:include/default"
+		},
+		{
+			"type": "reference",
+			"id": "minecraft:include/unifont"
+		}
+	]
+}

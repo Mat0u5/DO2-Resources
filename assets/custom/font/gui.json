@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "custom:gui/map_blue.png",
+            "file": "custom:gui/map.png",
             "ascent": 413,
             "height": 434,
             "chars": [
@@ -11,7 +11,7 @@
         },
         {
             "type": "bitmap",
-            "file": "custom:gui/map.png",
+            "file": "custom:gui/map_blue.png",
             "ascent": 413,
             "height": 434,
             "chars": [
@@ -56,7 +56,7 @@
         },
         {
             "type": "bitmap",
-            "file": "custom:gui/map_blue.png",
+            "file": "custom:gui/map.png",
             "ascent": 206,
             "height": 217,
             "chars": [
@@ -65,7 +65,7 @@
         },
         {
             "type": "bitmap",
-            "file": "custom:gui/map.png",
+            "file": "custom:gui/map_blue.png",
             "ascent": 206,
             "height": 217,
             "chars": [
@@ -110,7 +110,7 @@
         },
         {
             "type": "bitmap",
-            "file": "custom:gui/map_blue.png",
+            "file": "custom:gui/map.png",
             "ascent": 117,
             "height": 145,
             "chars": [
@@ -119,7 +119,7 @@
         },
         {
             "type": "bitmap",
-            "file": "custom:gui/map.png",
+            "file": "custom:gui/map_blue.png",
             "ascent": 117,
             "height": 145,
             "chars": [
@@ -164,7 +164,7 @@
         },
         {
             "type": "bitmap",
-            "file": "custom:gui/map_blue.png",
+            "file": "custom:gui/map.png",
             "ascent": 72,
             "height": 108,
             "chars": [
@@ -173,7 +173,7 @@
         },
         {
             "type": "bitmap",
-            "file": "custom:gui/map.png",
+            "file": "custom:gui/map_blue.png",
             "ascent": 72,
             "height": 108,
             "chars": [
