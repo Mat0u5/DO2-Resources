@@ -47,6 +47,15 @@
         },
         {
             "type": "bitmap",
+            "file": "custom:gui/recycle_ticks.png",
+            "ascent": 392,
+            "height": 392,
+            "chars": [
+                "\ue145\ue146\ue147"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "custom:gui/card_ticks.png",
             "ascent": 392,
             "height": 392,
@@ -97,6 +106,15 @@
             "height": 196,
             "chars": [
                 "\ue231\ue232\ue233\ue234\ue241\ue242\ue243\ue244"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom:gui/recycle_ticks.png",
+            "ascent": 196,
+            "height": 196,
+            "chars": [
+                "\ue245\ue246\ue247"
             ]
         },
         {
@@ -155,6 +173,15 @@
         },
         {
             "type": "bitmap",
+            "file": "custom:gui/recycle_ticks.png",
+            "ascent": 110,
+            "height": 131,
+            "chars": [
+                "\ue345\ue346\ue347"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "custom:gui/card_ticks.png",
             "ascent": 110,
             "height": 131,
@@ -205,6 +232,15 @@
             "height": 98,
             "chars": [
                 "\ue431\ue432\ue433\ue434\ue441\ue442\ue443\ue444"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom:gui/recycle_ticks.png",
+            "ascent": 66,
+            "height": 98,
+            "chars": [
+                "\ue445\ue446\ue447"
             ]
         },
         {
@@ -832,9 +868,27 @@
             "type": "bitmap",
             "file": "custom:gui/empty.png",
             "ascent": -65535,
+            "height": 94,
+            "chars": [
+                "\uea41"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom:gui/empty.png",
+            "ascent": -65535,
             "height": 127,
             "chars": [
                 "\uea80"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom:gui/empty.png",
+            "ascent": -65535,
+            "height": 188,
+            "chars": [
+                "\uea81"
             ]
         },
         {
