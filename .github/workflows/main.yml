@@ -109,10 +109,22 @@ jobs:
     #    asset_path: ${{ github.workspace }}/${{ env.ZIP_NAME }}
     #    asset_name: ${{ env.ZIP_NAME }}
     #    asset_content_type: application/zip
+    - name: Replace special characters in commit message
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: |
+          \\
+          "
+          %0A
+        replace: |
+          \\\\
+          \\\"
+          \\n
+        files: ${{ github.event_path }}
     - name: Make the commit message compatible with JSON
       run: |
         # Escape the commit message for JSON
-        COMMIT_MESSAGE=$(echo -n "${{ github.event.head_commit.message }}"  | sed 's/`//g' | sed 's/%0A/\\n/g' | jq -s -Rr @json)
+        COMMIT_MESSAGE=$(echo -n "${{ github.event.head_commit.message }}" | jq -s -Rr @json)
         COMMIT_MESSAGE=${COMMIT_MESSAGE:1:-1}
         echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
     - name: Discord Message
