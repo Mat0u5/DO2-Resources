@@ -111,8 +111,7 @@ jobs:
     #    asset_content_type: application/zip
     - name: Make the commit message compatible with JSON
       run: |
-        COMMIT_MESSAGE=$(echo "${{ github.event.head_commit.message }}" | sed 's/%0A/\\n/g' | jq -Rs .)
-        echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
+        echo COMMIT_MESSAGE="$(echo "${{ github.event.head_commit.message }}" | sed 's/%0A/\\n/g' | jq -Rs .)" >> "$GITHUB_ENV"
     - name: Discord Message
       uses: satak/webrequest-action@master
       with:
