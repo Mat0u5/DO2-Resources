@@ -114,7 +114,7 @@ jobs:
         # Escape the commit message for JSON and replace %0A with actual newlines
         COMMIT_MESSAGE=$(echo "${{ github.event.head_commit.message }}" | sed 's/%0A/\\n/g' | jq -Rs .)
         # Remove surrounding quotes from the jq output
-        COMMIT_MESSAGE=${COMMIT_MESSAGE:1:-1}
+        COMMIT_MESSAGE=$(echo $COMMIT_MESSAGE | sed 's/^"\(.*\)"$/\1/')
         echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
     - name: Discord Message
       uses: satak/webrequest-action@master
