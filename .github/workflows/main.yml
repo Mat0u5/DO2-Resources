@@ -116,11 +116,6 @@ jobs:
         # Remove surrounding quotes from the jq output
         COMMIT_MESSAGE=${COMMIT_MESSAGE:1:-1}
         echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
-    - name: Dump vars context
-      env:
-        VARS_JSON: ${{ toJSON(vars) }}
-      run: echo "${VARS_JSON}"
-      
     - name: Discord Message
       uses: satak/webrequest-action@master
       with:
