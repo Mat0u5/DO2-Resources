@@ -112,10 +112,6 @@ jobs:
     - name: Make the commit message compatible with JSON
       run: |
         echo COMMIT_MESSAGE="$(echo "${{ github.event.head_commit.message }}" | sed 's/%0A/\\n/g' | jq -Rs .)" >> "$GITHUB_ENV"
-    - name: Maeef
-      env:
-        COMMIT_MESSAGEE: ${{ toJSON(${{ github.event.head_commit.message }}) }}
-      run: echo "${COMMIT_MESSAGEE}" >> "$GITHUB_ENV"
     - name: Dump vars context
       env:
         VARS_JSON: ${{ toJSON(vars) }}
