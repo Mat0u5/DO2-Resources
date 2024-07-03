@@ -116,10 +116,12 @@ jobs:
           \\
           "
           %0A
+          \`
         replace: |
           \\\\
           \\\"
           \\n
+          \\\`
         files: ${{ github.event_path }}
     - name: Make the commit message compatible with JSON
       run: |
