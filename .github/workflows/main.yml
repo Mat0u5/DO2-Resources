@@ -120,8 +120,7 @@ jobs:
       with:
         url: ${{ secrets.DISCORD_WEBHOOK_TESTING }}
         method: POST
-        payload: |
-          {
+        payload: '{
           "embeds": [
             {
               "title": "New **TESTING** Resource Pack Release",
@@ -145,4 +144,4 @@ jobs:
               "color": 3384627
             }
           ]
-          }
+        }'
