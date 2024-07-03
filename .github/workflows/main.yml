@@ -114,6 +114,7 @@ jobs:
         # Escape the commit message for JSON
         COMMIT_MESSAGE=$(echo -n "${{ github.event.head_commit.message }}" | sed 's/%0A/\\n/g' | jq -s -Rr @json)
         COMMIT_MESSAGE=${COMMIT_MESSAGE:1:-1}
+        COMMIT_MESSAGE=$(echo -n "$COMMIT_MESSAGE" | sed 's/`//g')
         echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
     - name: Discord Message
       uses: satak/webrequest-action@master
