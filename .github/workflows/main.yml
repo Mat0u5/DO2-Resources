@@ -112,18 +112,8 @@ jobs:
     - name: Replace special characters in commit message
       uses: jacobtomlinson/gha-find-replace@v3
       with:
-        find: |
-          \\
-          "
-          %0A
-          \`
-          a
-        replace: |
-          \\\\
-          \\\"
-          \\n
-           
-          b
+        find: "\`"
+        replace: ""
         path: ${{ github.event_path }}
     - name: Make the commit message compatible with JSON
       run: |
