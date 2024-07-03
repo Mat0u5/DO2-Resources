@@ -123,9 +123,16 @@ jobs:
         asset_name: ${{ env.ZIP_NAME }}
         asset_content_type: application/zip
     
+    - name: Make the commit message compatible with JSON
+      run: |
+        # Escape the commit message for JSON
+        COMMIT_MESSAGE=$(echo -n "${{ github.event.head_commit.message }}" | sed 's/%0A/\\n/g' | jq -s -Rr @json)
+        COMMIT_MESSAGE=${COMMIT_MESSAGE:1:-1}
+        echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
+        
     - name: Discord Message
       uses: satak/webrequest-action@master
       with:
         url: ${{ secrets.DISCORD_WEBHOOK }}
         method: POST
-        payload: '{ "embeds": [{ "title": "New Resource Pack Release", "author": {"name": "${{ github.event.head_commit.author.name}}","url": "https://github.com/${{ github.event.head_commit.author.username}}","icon_url": "https://github.com/${{ github.event.head_commit.author.username}}.png"},"description": "```Commit Message:\n\n${{ github.event.head_commit.message }}```\nGithub changelog: [here](https://github.com/${{ github.repository }}/commit/${{ github.sha }})\nPermanent link to latest resource pack: [here](https://github.com/${{ github.repository }}/releases/latest/download/${{ env.ZIP_NAME }})\nLink to this resource pack: [here](https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }})\nRelease ID: release-${{ github.sha }}\nSHA1: ${{env.CHECKSUM}}\n\nResource Pack Size (**compressed**): ${{ env.FILE_SIZE_COMPRESSED }}\nResource Pack Size (**uncompressed**): ${{ env.FILE_SIZE_UNCOMPRESSED }}\n> .ogg files: ${{ env.FILE_SIZE_OGG }}\n> .json files: ${{ env.FILE_SIZE_JSON }}\n> .png files: ${{ env.FILE_SIZE_PNG }}", "url": "https://github.com/${{ github.repository }}/releases/tag/release-${{ github.sha }}", "color": 3384627 }] }'
+        payload: '{ "embeds": [{ "title": "New Resource Pack Release", "author": {"name": "${{ github.event.head_commit.author.name}}","url": "https://github.com/${{ github.event.head_commit.author.username}}","icon_url": "https://github.com/${{ github.event.head_commit.author.username}}.png"},"description": "```Commit Message:\n\n${{ env.COMMIT_MESSAGE }}```\nGithub changelog: [here](https://github.com/${{ github.repository }}/commit/${{ github.sha }})\nPermanent link to latest resource pack: [here](https://github.com/${{ github.repository }}/releases/latest/download/${{ env.ZIP_NAME }})\nLink to this resource pack: [here](https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }})\nRelease ID: release-${{ github.sha }}\nSHA1: ${{env.CHECKSUM}}\n\nResource Pack Size (**compressed**): ${{ env.FILE_SIZE_COMPRESSED }}\nResource Pack Size (**uncompressed**): ${{ env.FILE_SIZE_UNCOMPRESSED }}\n> .ogg files: ${{ env.FILE_SIZE_OGG }}\n> .json files: ${{ env.FILE_SIZE_JSON }}\n> .png files: ${{ env.FILE_SIZE_PNG }}", "url": "https://github.com/${{ github.repository }}/releases/tag/release-${{ github.sha }}", "color": 3384627 }] }'
