@@ -88,7 +88,7 @@ jobs:
     #    regex: false
     #      
     
-   #- name: Create Release
+    #- name: Create Release
     #  id: create_release
     #  uses: actions/create-release@v1
     #  env:
@@ -112,7 +112,7 @@ jobs:
     - name: Make the commit message compatible with JSON
       run: |
         # Escape the commit message for JSON
-        COMMIT_MESSAGE=$(echo -n "${{ github.event.head_commit.message }}" | jq -s -Rr @json)
+        COMMIT_MESSAGE=$(echo -n "${{ github.event.head_commit.message }}" | sed 's/%0A/\\n/g' | jq -s -Rr @json)
         COMMIT_MESSAGE=${COMMIT_MESSAGE:1:-1}
         echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
     - name: Discord Message
