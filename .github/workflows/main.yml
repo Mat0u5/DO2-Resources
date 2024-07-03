@@ -124,7 +124,7 @@ jobs:
           \\n
            
           b
-        files: ${{ github.event_path }}
+        path: ${{ github.event_path }}
     - name: Make the commit message compatible with JSON
       run: |
         # Escape the commit message for JSON
