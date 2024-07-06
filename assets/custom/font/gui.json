@@ -20,7 +20,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:painting/pigscene.png",
+            "file": "custom:gui/pigscene.png",
             "ascent": 413,
             "height": 434,
             "chars": [
@@ -92,7 +92,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:painting/pigscene.png",
+            "file": "custom:gui/pigscene.png",
             "ascent": 206,
             "height": 217,
             "chars": [
@@ -164,7 +164,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:painting/pigscene.png",
+            "file": "custom:gui/pigscene.png",
             "ascent": 117,
             "height": 145,
             "chars": [
@@ -236,7 +236,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:painting/pigscene.png",
+            "file": "custom:gui/pigscene.png",
             "ascent": 72,
             "height": 108,
             "chars": [
