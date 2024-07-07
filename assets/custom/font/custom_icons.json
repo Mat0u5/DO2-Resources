@@ -35,6 +35,15 @@
 			"chars": [
 				"\uE0CA\uE0CB"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "custom:font/icons8.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uE0CC\uE0CD\uE0CE\uE0CF"
+			]
 		}
 	]
 }
