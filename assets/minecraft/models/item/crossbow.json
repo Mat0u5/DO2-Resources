@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/crossbow"
+    "layer0": "item/crossbow_standby"
   },
   "display": {
     "thirdperson_righthand": {
@@ -26,29 +26,16 @@
     }
   },
   "overrides": [
-    { "predicate": {"custom_model_data": 1}, "model": "custom:item/gun/gun"},
-    {
-      "predicate": {
-        "pulling": 1,
-        "custom_model_data": 1
-      },
-      "model": "custom:item/gun/gun_l0"
-    },
-    {
-      "predicate": {
-        "pulling": 1,
-        "pull": 0.65,
-        "custom_model_data": 1
-      },
-      "model": "custom:item/gun/gun_l1"
-    },
-    {
-      "predicate": {
-        "pulling": 1,
-        "pull": 0.9,
-        "custom_model_data": 1
-      },
-      "model": "custom:item/gun/gun_l2"
-    }
+    { "predicate": {"pulling": 1}, "model": "item/crossbow_pulling_0" },
+    { "predicate": {"pulling": 1, "pull": 0.65}, "model": "item/crossbow_pulling_1" },
+    { "predicate": {"pulling": 1, "pull": 0.9}, "model": "item/crossbow_pulling_2" },
+    { "predicate": {"charged": 1}, "model": "item/crossbow_arrow" },
+    { "predicate": {"charged": 1, "firework": 1}, "model": "item/crossbow_firework"},
+    { "predicate": {"custom_model_data": 1}, "model": "custom:item/gun/gun" },
+    { "predicate": {"custom_model_data": 1, "pulling": 1}, "model": "custom:item/gun/gun_l0" },
+    { "predicate": {"custom_model_data": 1, "pulling": 1, "pull": 0.65}, "model": "custom:item/gun/gun_l1" },
+    { "predicate": {"custom_model_data": 1, "pulling": 1, "pull": 0.9}, "model": "custom:item/gun/gun_l2" },
+    { "predicate": {"custom_model_data": 1, "charged": 1}, "model": "custom:item/gun/gun_loaded1" },
+    { "predicate": {"custom_model_data": 1, "charged": 1, "firework": 1}, "model": "custom:item/gun/gun_loaded2" }
   ]
 }
