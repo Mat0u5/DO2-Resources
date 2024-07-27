@@ -940,5 +940,20 @@
         "sounds": [
             "do/wrong_artifact_spot"
         ]
+    },
+    "gunshot": {
+        "sounds": [
+            "do/gunshot"
+        ]
+    },
+    "gunload": {
+        "sounds": [
+            "do/gunload"
+        ]
+    },
+    "gunload_finish": {
+        "sounds": [
+            "do/gunload_finish"
+        ]
     }
 }
