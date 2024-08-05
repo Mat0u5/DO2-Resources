@@ -14,10 +14,6 @@
 		},
 		{
 			"type": "reference",
-			"id": "custom:gui"
-		},
-		{
-			"type": "reference",
 			"id": "minecraft:include/space"
 		},
 		{
