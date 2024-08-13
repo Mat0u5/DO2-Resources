@@ -103,6 +103,7 @@
 	{"predicate": {"custom_model_data": 100}, "model": "custom:item/gtwscar_pirate_hat"},
 	{"predicate": {"custom_model_data": 101}, "model": "custom:item/scarhat"},
     {"predicate": {"custom_model_data":102}, "model": "custom:item/do/custom_items/wine_bottle"},
-    {"predicate": {"custom_model_data":103}, "model": "custom:item/do/custom_items/gregghood"}
+    {"predicate": {"custom_model_data":103}, "model": "custom:item/do/custom_items/gregghood"},
+    {"predicate": {"custom_model_data":104}, "model": "custom:item/do/custom_items/prop_hat"}
   ]
 }

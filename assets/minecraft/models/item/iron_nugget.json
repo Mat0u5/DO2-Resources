@@ -59,6 +59,7 @@
     {"predicate": {"custom_model_data":55}, "model": "custom:item/do/artifacts/glitchcoin"},
     {"predicate": {"custom_model_data":56}, "model": "custom:item/do/artifacts/ironfist"},
     {"predicate": {"custom_model_data":57}, "model": "custom:item/do/artifacts/payday"},
+    {"predicate": {"custom_model_data":58}, "model": "custom:item/do/artifacts/stopwatch"},
 	
    { "predicate": {"custom_model_data": 101}, "model": "custom:item/do/cards/stumble"},
    { "predicate": {"custom_model_data": 102}, "model": "custom:item/do/cards/sneak"},
@@ -133,6 +134,9 @@
    { "predicate": {"custom_model_data": 169}, "model": "custom:item/do/cards/death_wish"},
    { "predicate": {"custom_model_data": 170}, "model": "custom:item/do/cards/dead_mans_hand"},
    { "predicate": {"custom_model_data": 171}, "model": "custom:item/do/cards/mary_poppins"},
+   { "predicate": {"custom_model_data": 172}, "model": "custom:item/do/cards/serene_safety"},
+   { "predicate": {"custom_model_data": 173}, "model": "custom:item/do/cards/gold_by_the_gallon"},
+   { "predicate": {"custom_model_data": 174}, "model": "custom:item/do/cards/restoring_veil"},
    
 	{"predicate": {"custom_model_data":198}, "model": "custom:item/do/keys/staircase1"},
 	{"predicate": {"custom_model_data":199}, "model": "custom:item/do/keys/staircase2"},
