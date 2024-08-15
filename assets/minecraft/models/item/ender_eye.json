@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/ender_eye"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "custom:item/do/custom_items/clank"},
+    {"predicate": {"custom_model_data":2}, "model": "custom:item/do/custom_items/hazard"},
+    {"predicate": {"custom_model_data":3}, "model": "custom:item/do/custom_items/coin"},
+    {"predicate": {"custom_model_data":4}, "model": "custom:item/do/custom_items/ember"},
+    {"predicate": {"custom_model_data":5}, "model": "custom:item/do/cards/stumble"},
+    {"predicate": {"custom_model_data":6}, "model": "custom:item/do/cards/treasure_hunter"},
+    {"predicate": {"custom_model_data":7}, "model": "custom:item/do/cards/ember_seeker"}
+  ]
+}
