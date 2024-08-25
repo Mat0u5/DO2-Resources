@@ -56,17 +56,16 @@ jobs:
         content: |
           resourcepack.url=https\://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}
           resourcepack.sha1=${{env.CHECKSUM}}
-          
     - name: Upload serverresourcepackreload.properties to FileZilla
-      uses: tomasbkk/action-ftp-upload@v1.0
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        user: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        host: ${{ secrets.FTP_HOST }}
-        port: ${{ secrets.FTP_PORT }}
-        src: serverresourcepackreload.properties
-        dest: config/serverresourcepackreload.properties
-        verbose: true
+         username: ${{ secrets.FTP_USER }}
+         server: ${{ secrets.FTP_HOST }}
+         port: ${{ secrets.FTP_PORT }}
+         password: ${{ secrets.FTP_PASSWORD }}
+         local_path: './serverresourcepackreload.properties'
+         remote_path: 'config/'
+         sftp_only: true
     
     - name: Copy server.properties
       uses: canastro/copy-file-action@master
@@ -89,17 +88,17 @@ jobs:
         find: "\nresource-pack-sha1="
         replace: "\nresource-pack-sha1=${{env.CHECKSUM}}"
         regex: false
-          
-    - name: Upload To FileZilla
-      uses: tomasbkk/action-ftp-upload@v1.0
+        
+    - name: Upload serverresourcepackreload.properties to FileZilla
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        user: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        host: ${{ secrets.FTP_HOST }}
-        port: ${{ secrets.FTP_PORT }}
-        src: server2.properties
-        dest: server.properties
-        verbose: true
+         username: ${{ secrets.FTP_USER }}
+         server: ${{ secrets.FTP_HOST }}
+         port: ${{ secrets.FTP_PORT }}
+         password: ${{ secrets.FTP_PASSWORD }}
+         local_path: './server2.properties'
+         remote_path: './'
+         sftp_only: true
     
     - name: Create Release
       id: create_release
