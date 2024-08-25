@@ -66,13 +66,14 @@ jobs:
    #     dest: config/serverresourcepackreload2.properties
    #     verbose: true
     - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      uses: bradgarropy/ftp-deploy-action@v1.2.0
       with:
-        server: ${{ secrets.FTP_HOST }}
+        host: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: serverresourcepackreload.properties
-        server-dir: config/serverresourcepackreload2.properties
+        local: serverresourcepackreload.properties
+        remote: config/serverresourcepackreload2.properties
+
     #- name: Copy server.properties
     #  uses: canastro/copy-file-action@master
     #  with:
