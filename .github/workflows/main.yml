@@ -65,16 +65,17 @@ jobs:
    #     src: serverresourcepackreload.properties
    #     dest: config/serverresourcepackreload2.properties
    #     verbose: true
-    - name: SFTP Upload
-      uses: StefanStanisic/sftp-action@v1.0.3
+    - name: FTP Deploy Single File
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        command: put
-        source: serverresourcepackreload.properties
-        target: config/serverresourcepackreload2.properties
-        host: ${{ secrets.FTP_HOST }}
+        server: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        port: ${{ secrets.FTP_PORT }}
+        local-dir: ./
+        server-dir: config/serverresourcepackreload2.properties
+        exclude: '*'
+        include: serverresourcepackreload.properties
+
 
 
     #- name: Copy server.properties
