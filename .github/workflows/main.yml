@@ -55,16 +55,24 @@ jobs:
         content: |
           resourcepack.url=https\://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}
           resourcepack.sha1=${{env.CHECKSUM}}
-    - name: Upload To FileZilla
-      uses: tomasbkk/action-ftp-upload@v1.0
+   # - name: Upload To FileZilla
+   #   uses: tomasbkk/action-ftp-upload@v1.0
+   #   with:
+   #     user: ${{ secrets.FTP_USER }}
+   #     password: ${{ secrets.FTP_PASSWORD }}
+   #     host: ${{ secrets.FTP_HOST }}
+   #     port: ${{ secrets.FTP_PORT }}
+   #     src: serverresourcepackreload.properties
+   #     dest: config/serverresourcepackreload2.properties
+   #     verbose: true
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        user: ${{ secrets.FTP_USER }}
+        server: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        host: ${{ secrets.FTP_HOST }}
-        port: ${{ secrets.FTP_PORT }}
-        src: serverresourcepackreload.properties
-        dest: config/serverresourcepackreload2.properties
-        verbose: true
+        local-dir: serverresourcepackreload.properties
+        server-dir: config/serverresourcepackreload2.properties
     #- name: Copy server.properties
     #  uses: canastro/copy-file-action@master
     #  with:
