@@ -64,7 +64,6 @@ jobs:
         port: ${{ secrets.FTP_PORT }}
         src: serverresourcepackreload.properties
         dest: config/serverresourcepackreload2.properties
-        verbose: true
     #- name: Copy server.properties
     #  uses: canastro/copy-file-action@master
     #  with:
