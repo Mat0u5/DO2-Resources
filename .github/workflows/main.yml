@@ -67,16 +67,16 @@ jobs:
          remote_path: 'config/'
          sftp_only: true
     
-    - name: Copy server.properties
-      uses: canastro/copy-file-action@master
-      with:
-        source: "server.properties"
-        target: "temp/server.properties"
+   # - name: Copy server.properties
+   #   uses: canastro/copy-file-action@master
+   #   with:
+   #     source: "server.properties"
+   #     target: "temp/server.properties"
         
     - name: Edit server.properties
       uses: jacobtomlinson/gha-find-replace@v3
       with:
-        path: temp/server.properties
+        path: server.properties
         find: "\nresource-pack="
         replace: "\nresource-pack=https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}"
         regex: false
@@ -84,7 +84,7 @@ jobs:
     - name: Edit server.properties #2
       uses: jacobtomlinson/gha-find-replace@v3
       with:
-        path: temp/server.properties
+        path: server.properties
         find: "\nresource-pack-sha1="
         replace: "\nresource-pack-sha1=${{env.CHECKSUM}}"
         regex: false
@@ -96,7 +96,7 @@ jobs:
          server: ${{ secrets.FTP_HOST }}
          port: ${{ secrets.FTP_PORT }}
          password: ${{ secrets.FTP_PASSWORD }}
-         local_path: './temp/server.properties'
+         local_path: './server.properties'
          remote_path: './'
          sftp_only: true
     
