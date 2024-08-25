@@ -65,15 +65,16 @@ jobs:
    #     src: serverresourcepackreload.properties
    #     dest: config/serverresourcepackreload2.properties
    #     verbose: true
-    - name: Upload To FileZilla
-      uses: Creepios/sftp-action@v1.0.3
+    - name: Deploy file
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        host: ${{ secrets.FTP_HOST }}
-        port: ${{ secrets.FTP_PORT }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        localPath: 'serverresourcepackreload.properties'
-        remotePath: 'config/test/'
+         username: ${{ secrets.FTP_USER }}
+         server: ${{ secrets.FTP_HOST }}
+         port: ${{ secrets.FTP_PORT }}
+         local_path: './serverresourcepackreload.properties'
+         remote_path: 'config/test/'
+         sftp_only: true
+         password: ${{ secrets.FTP_PASSWORD }}
 
 
 
