@@ -65,17 +65,15 @@ jobs:
    #     src: serverresourcepackreload.properties
    #     dest: config/serverresourcepackreload2.properties
    #     verbose: true
-    - name: FTP Deploy Single File
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+    - name: Upload To FileZilla
+      uses: Creepios/sftp-action@v1.0.3
       with:
-        server: ${{ secrets.FTP_HOST }}
+        host: ${{ secrets.FTP_HOST }}
+        port: ${{ secrets.FTP_PORT }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        port: ${{ secrets.FTP_PORT }}
-        local-dir: ./
-        server-dir: config/test/
-        exclude: '*'
-        include: serverresourcepackreload.properties
+        localPath: 'serverresourcepackreload.properties'
+        remotePath: 'config/test/'
 
 
 
