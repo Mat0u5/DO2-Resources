@@ -955,5 +955,20 @@
         "sounds": [
             "do/gunload_finish"
         ]
+    },
+    "tcg_song": {
+        "sounds": [
+            "do/tcg_song"
+        ]
+    },
+    "do_instructions": {
+        "sounds": [
+            "do/do_instructions"
+        ]
+    },
+    "do_flee_with_extra_flee": {
+        "sounds": [
+            "do/do_flee_with_extra_flee"
+        ]
     }
 }
