@@ -970,5 +970,10 @@
         "sounds": [
             "do/do_flee_with_extra_flee"
         ]
-    }
+    },
+    "please_hold": {
+         "sounds": [
+             "do/elevatormusic"
+	 ]
+		 }
 }
