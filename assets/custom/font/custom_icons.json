@@ -44,6 +44,42 @@
 			"chars": [
 				"\uE0CC\uE0CD\uE0CE\uE0CF"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "custom:font/warden.png",
+			"ascent": 27,
+			"height": 27,
+			"chars": [
+				"\uE0DD"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "custom:font/warden_pointing.png",
+			"ascent": 26,
+			"height": 26,
+			"chars": [
+				"\uE0DE\uE0DF"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "custom:font/warden_scream.png",
+			"ascent": 31,
+			"height": 31,
+			"chars": [
+				"\uE0E0"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "custom:font/ravager.png",
+			"ascent": 20,
+			"height": 20,
+			"chars": [
+				"\uE0E1"
+			]
 		}
 	]
 }
