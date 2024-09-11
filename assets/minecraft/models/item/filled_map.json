@@ -1180,6 +1180,14 @@
                 "custom_model_data": 196
             },
             "model": "custom:item/map/missing_cards/llamadad"
-        }
+        },
+        { "predicate": { "custom_model_data": 197 }, "model": "custom:item/map/custom/hermits/garibaldi" },
+        { "predicate": { "custom_model_data": 198 }, "model": "custom:item/map/custom/hermits/mrdungeon" },
+        { "predicate": { "custom_model_data": 199 }, "model": "custom:item/map/custom/hermits/mat0u5" },
+        { "predicate": { "custom_model_data": 200 }, "model": "custom:item/map/custom/hermits/mat0u6" },
+        { "predicate": { "custom_model_data": 201 }, "model": "custom:item/map/custom/hermits/ontimoose" },
+        { "predicate": { "custom_model_data": 202 }, "model": "custom:item/map/custom/hermits/bigbrother" },
+        { "predicate": { "custom_model_data": 203 }, "model": "custom:item/map/custom/hermits/simple" },
+        { "predicate": { "custom_model_data": 204 }, "model": "custom:item/map/custom/hermits/moltenmachine" }
     ]
 }
