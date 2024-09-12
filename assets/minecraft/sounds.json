@@ -975,5 +975,21 @@
          "sounds": [
              "do/elevatormusic"
 	 ]
-		 }
+    },
+ "bb_duel": {
+         "sounds": [
+             "do/bb_boss/duel"
+	 ]
+    },
+ "bb_versus": {
+         "sounds": [
+             "do/bb_boss/versus"
+	 ]
+    },
+ "tunnelfireisgone": {
+         "sounds": [
+             "do/bb_boss/thefireisgone"
+	 ]
+    }
+
 }
