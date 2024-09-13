@@ -1188,6 +1188,10 @@
         { "predicate": { "custom_model_data": 201 }, "model": "custom:item/map/custom/hermits/ontimoose" },
         { "predicate": { "custom_model_data": 202 }, "model": "custom:item/map/custom/hermits/bigbrother" },
         { "predicate": { "custom_model_data": 203 }, "model": "custom:item/map/custom/hermits/simple" },
-        { "predicate": { "custom_model_data": 204 }, "model": "custom:item/map/custom/hermits/moltenmachine" }
+        { "predicate": { "custom_model_data": 204 }, "model": "custom:item/map/custom/hermits/moltenmachine" },
+        { "predicate": { "custom_model_data": 205 }, "model": "custom:item/map/custom/hermits/bigbrotherboss" },
+        { "predicate": { "custom_model_data": 206 }, "model": "custom:item/map/custom/hermits/zizola" },
+        { "predicate": { "custom_model_data": 207 }, "model": "custom:item/map/custom/hermits/shinykyuu" },
+        { "predicate": { "custom_model_data": 208 }, "model": "custom:item/map/custom/hermits/mrstuff" }
     ]
 }
