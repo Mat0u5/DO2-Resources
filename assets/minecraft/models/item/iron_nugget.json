@@ -161,6 +161,9 @@
     {"predicate": {"custom_model_data":218}, "model": "custom:item/do/custom_items/empty_bottle"},
     {"predicate": {"custom_model_data":219}, "model": "custom:item/do/custom_items/do_eternal_flame"},
     {"predicate": {"custom_model_data":220}, "model": "custom:item/do/custom_items/broken_trident"},
+    {"predicate": {"custom_model_data":221}, "model": "custom:item/do/custom_items/kyuu1"},
+    {"predicate": {"custom_model_data":222}, "model": "custom:item/do/custom_items/kyuu2"},
+    {"predicate": {"custom_model_data":223}, "model": "custom:item/do/custom_items/alarm"},
 	
 	
     {"predicate": {"custom_model_data":500}, "model": "custom:item/do/custom_items/commons_stack"},

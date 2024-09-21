@@ -105,7 +105,8 @@
     {"predicate": {"custom_model_data":102}, "model": "custom:item/do/custom_items/wine_bottle"},
     {"predicate": {"custom_model_data":103}, "model": "custom:item/do/custom_items/gregghood"},
     {"predicate": {"custom_model_data":104}, "model": "custom:item/do/custom_items/prop_hat"},
-    {"predicate": {"custom_model_data":105}, "model": "custom:item/do/artifacts/onticube"}
+    {"predicate": {"custom_model_data":105}, "model": "custom:item/do/artifacts/onticube"},
+    {"predicate": {"custom_model_data":106}, "model": "custom:item/do/custom_items/luckycharm"}
 
   ]
 }
