@@ -990,6 +990,41 @@
          "sounds": [
              "do/bb_boss/thefireisgone"
 	 ]
+    },
+ "do_halloween_ent_1": {
+         "sounds": [
+             "do/do_halloween_entrance1"
+	 ]
+    },
+ "do_halloween_ent_2": {
+         "sounds": [
+             "do/do_halloween_entrance1"
+	 ]
+    },
+ "do_halloween_ent_3": {
+         "sounds": [
+             "do/do_halloween_entrance1"
+	 ]
+    },
+ "do_halloween_fail_1": {
+         "sounds": [
+             "do/do_halloween_fail1"
+	 ]
+    },
+ "do_halloween_fail_2": {
+         "sounds": [
+             "do/do_halloween_fail2"
+	 ]
+    },
+ "do_halloween_fail_3": {
+         "sounds": [
+             "do/do_halloween_fail3"
+	 ]
+    },
+ "do_halloween_success": {
+         "sounds": [
+             "do/do_halloween_success"
+	 ]
     }
 
 }
