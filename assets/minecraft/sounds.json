@@ -1025,6 +1025,11 @@
          "sounds": [
              "do/do_halloween_success"
 	 ]
+    },
+ "yougotmail": {
+         "sounds": [
+             "do/yougotmail"
+         ]
     }
 
 }
