@@ -135,4 +135,4 @@ jobs:
       with:
         url: ${{ secrets.DISCORD_WEBHOOK_CONSOLE }}
         method: POST
-        payload: '{"content":"resourcepack setLatestResourcepack \"https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}\" ${{env.CHECKSUM}}"}'
+        payload: '{"content":"resourcepack setLatestResourcepack \"https://github.com/${{ github.repository }}/releases/download/release-${{ github.sha }}/${{ env.ZIP_NAME }}\" \"${{env.CHECKSUM}}\" ${{env.COMMIT_MESSAGE}}"}'
