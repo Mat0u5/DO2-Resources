@@ -185,6 +185,7 @@
     {"predicate": {"custom_model_data":516}, "model": "custom:item/do/custom_items/clank"},
     {"predicate": {"custom_model_data":517}, "model": "custom:item/do/custom_items/hazard"},
     {"predicate": {"custom_model_data":518}, "model": "custom:item/do/custom_items/coin"},
-    {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"}
+    {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"},
+    {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
   ]
 }
