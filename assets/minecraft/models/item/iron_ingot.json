@@ -5,6 +5,7 @@
   },
   "overrides": [
     { "predicate": {"custom_model_data": 1}, "model": "custom:item/crystal_trophy"},
-	{"predicate":  {"custom_model_data": 2}, "model": "custom:item/do/keys/toolbox"}
+	{"predicate":  {"custom_model_data": 2}, "model": "custom:item/do/keys/toolbox"},
+    {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
   ]
 }
