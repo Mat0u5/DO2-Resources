@@ -185,6 +185,11 @@
     {"predicate": {"custom_model_data":516}, "model": "custom:item/do/custom_items/clank"},
     {"predicate": {"custom_model_data":517}, "model": "custom:item/do/custom_items/hazard"},
     {"predicate": {"custom_model_data":518}, "model": "custom:item/do/custom_items/coin"},
+    {"predicate": {"custom_model_data":519}, "model": "custom:item/gui/button_checked"},
+    {"predicate": {"custom_model_data":520}, "model": "custom:item/gui/button_unchecked"},
+    {"predicate": {"custom_model_data":521}, "model": "custom:item/gui/cursor"},
+    {"predicate": {"custom_model_data":522}, "model": "custom:item/gui/cursor_click"},
+	
     {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"},
     {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
   ]
