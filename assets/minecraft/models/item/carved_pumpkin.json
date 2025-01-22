@@ -110,11 +110,11 @@
     {"predicate": {"custom_model_data":107}, "model": "custom:item/do/custom_items/cassettes"},
     {"predicate": {"custom_model_data":108}, "model": "custom:item/do/custom_items/eyepatch"},
     {"predicate": {"custom_model_data":109}, "model": "custom:item/do/custom_items/monocle"},
-    {"predicate": {"custom_model_data":110}, "model": "custom:item/do/custom_items/hats/sauron_eye"},
-    {"predicate": {"custom_model_data":111}, "model": "custom:item/do/custom_items/hats/scholar"},
-    {"predicate": {"custom_model_data":112}, "model": "custom:item/do/custom_items/hats/beret"},
-    {"predicate": {"custom_model_data":112}, "model": "custom:item/do/custom_items/hats/ski_goggles"},
-    {"predicate": {"custom_model_data":113}, "model": "custom:item/do/custom_items/hats/safety_goggles"},
+    {"predicate": {"custom_model_data":110}, "model": "custom:item/do/hats/sauron_eye"},
+    {"predicate": {"custom_model_data":111}, "model": "custom:item/do/hats/scholar"},
+    {"predicate": {"custom_model_data":112}, "model": "custom:item/do/hats/beret"},
+    {"predicate": {"custom_model_data":112}, "model": "custom:item/do/hats/ski_goggles"},
+    {"predicate": {"custom_model_data":113}, "model": "custom:item/do/hats/safety_goggles"},
 
     {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
   ]
