@@ -1,0 +1,134 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "custom:item/do/hats/ravager_mask"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [6.5, 0.5, -1],
+			"to": [9.5, 6.5, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -13, 26.5]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 1, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 1.5], "texture": "#0"},
+				"south": {"uv": [1.5, 0.5, 2, 1.5], "texture": "#0"},
+				"west": {"uv": [1, 0.5, 1.5, 1.5], "texture": "#0"},
+				"up": {"uv": [1, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [1.5, 0, 1, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "horns",
+			"from": [14, 10, 3],
+			"to": [16, 24, 7],
+			"rotation": {"angle": -45, "axis": "x", "origin": [15, 12, 5]},
+			"faces": {
+				"north": {"uv": [9.75, 7.375, 10, 9.125], "texture": "#0"},
+				"east": {"uv": [9.25, 7.375, 9.75, 9.125], "texture": "#0"},
+				"south": {"uv": [10.5, 7.375, 10.75, 9.125], "texture": "#0"},
+				"west": {"uv": [10, 7.375, 10.5, 9.125], "texture": "#0"},
+				"up": {"uv": [10, 7.375, 9.75, 6.875], "texture": "#0"},
+				"down": {"uv": [10.25, 6.875, 10, 7.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "left_horn",
+			"from": [1, 13, 2],
+			"to": [15, 15, 6],
+			"rotation": {"angle": 0, "axis": "z", "origin": [13, 14, 4]},
+			"faces": {
+				"north": {"uv": [7.5, 9.875, 7.25, 11.25], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [7.625, 9.375, 7.875, 9.875], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [8.125, 9.875, 7.875, 11.25], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [7.375, 9.875, 7.625, 9.375], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 9.875, 7.5, 11.25], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [7.25, 9.875, 6.75, 11.25], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "left_horn",
+			"from": [0, 10, 3],
+			"to": [2, 24, 7],
+			"rotation": {"angle": -45, "axis": "x", "origin": [1, 12, 5]},
+			"faces": {
+				"north": {"uv": [10, 7.375, 9.75, 9.125], "texture": "#0"},
+				"east": {"uv": [10.5, 7.375, 10, 9.125], "texture": "#0"},
+				"south": {"uv": [10.75, 7.375, 10.5, 9.125], "texture": "#0"},
+				"west": {"uv": [9.75, 7.375, 9.25, 9.125], "texture": "#0"},
+				"up": {"uv": [9.75, 7.375, 10, 6.875], "texture": "#0"},
+				"down": {"uv": [10, 6.875, 10.25, 7.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "jaw",
+			"from": [1.25, 2.75, 0.75],
+			"to": [14.75, 5.25, 14.25],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4, 14.5]},
+			"faces": {
+				"north": {"uv": [2, 6.5, 4, 6.875], "texture": "#0"},
+				"east": {"uv": [0, 6.5, 2, 6.875], "texture": "#0"},
+				"south": {"uv": [6, 6.5, 8, 6.875], "texture": "#0"},
+				"west": {"uv": [4, 6.5, 6, 6.875], "texture": "#0"},
+				"up": {"uv": [4, 6.5, 2, 4.5], "texture": "#0"},
+				"down": {"uv": [6, 4.5, 4, 6.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 0.75, 1],
+			"scale": [0.26, 0.26, 0.26]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.16, 0.16, 0.16]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 140, 0],
+			"translation": [1.75, 4.5, 0],
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [75, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.46, 0.46, 0.46]
+		},
+		"gui": {
+			"rotation": [-22, -123, 0],
+			"translation": [-1.25, -1.75, 0],
+			"scale": [0.54, 0.54, 0.54]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "head",
+			"origin": [8, 1, 13],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "horns",
+					"origin": [13, 14, 4],
+					"color": 0,
+					"children": [1, 2, 3]
+				}
+			]
+		},
+		{
+			"name": "jaw",
+			"origin": [8, 3, 15],
+			"color": 0,
+			"children": [4]
+		}
+	]
+}
