@@ -120,6 +120,8 @@
     {"predicate": {"custom_model_data":117}, "model": "custom:item/do/hats/ravager_mask"},
     {"predicate": {"custom_model_data":118}, "model": "custom:item/do/hats/witch_hat"},
     {"predicate": {"custom_model_data":119}, "model": "custom:item/do/hats/glados"},
+    {"predicate": {"custom_model_data":120}, "model": "custom:item/do/hats/cone"},
+    {"predicate": {"custom_model_data":121}, "model": "custom:item/do/hats/headset"},
 
     {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
   ]
