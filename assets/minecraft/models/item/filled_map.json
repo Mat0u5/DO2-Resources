@@ -1173,13 +1173,13 @@
             "predicate": {
                 "custom_model_data": 195
             },
-            "model": "custom:item/map/missing_cards/goatfather"
+            "model": "custom:item/map/alter_ego_hermits/goatfather"
         },
         {
             "predicate": {
                 "custom_model_data": 196
             },
-            "model": "custom:item/map/missing_cards/llamadad"
+            "model": "custom:item/map/alter_ego_hermits/llamadad"
         },
         { "predicate": { "custom_model_data": 197 }, "model": "custom:item/map/custom/hermits/garibaldi" },
         { "predicate": { "custom_model_data": 198 }, "model": "custom:item/map/custom/hermits/mrdungeon" },
@@ -1194,6 +1194,56 @@
         { "predicate": { "custom_model_data": 207 }, "model": "custom:item/map/custom/hermits/shinykyuu" },
         { "predicate": { "custom_model_data": 208 }, "model": "custom:item/map/custom/hermits/mrstuff" },
         { "predicate": { "custom_model_data": 209 }, "model": "custom:item/map/custom/hermits/hazel" },
-        { "predicate": { "custom_model_data": 210 }, "model": "custom:item/map/custom/hermits/nicky" }
+        { "predicate": { "custom_model_data": 210 }, "model": "custom:item/map/custom/hermits/nicky" },
+
+        { "predicate": { "custom_model_data": 211 }, "model": "custom:item/map/alter_ego_hermits/5am_pearl" },
+        { "predicate": { "custom_model_data": 212 }, "model": "custom:item/map/alter_ego_hermits/5am_pearl_r" },
+        { "predicate": { "custom_model_data": 213 }, "model": "custom:item/map/alter_ego_hermits/beetlejhost_r" },
+        { "predicate": { "custom_model_data": 214 }, "model": "custom:item/map/alter_ego_hermits/boomer_bdubs" },
+        { "predicate": { "custom_model_data": 215 }, "model": "custom:item/map/alter_ego_hermits/boomer_bdubs_r" },
+        { "predicate": { "custom_model_data": 216 }, "model": "custom:item/map/alter_ego_hermits/convex_cub" },
+        { "predicate": { "custom_model_data": 217 }, "model": "custom:item/map/alter_ego_hermits/convex_cub_r" },
+        { "predicate": { "custom_model_data": 218 }, "model": "custom:item/map/alter_ego_hermits/dwarf_impulse" },
+        { "predicate": { "custom_model_data": 219 }, "model": "custom:item/map/alter_ego_hermits/dwarf_impulse_r" },
+        { "predicate": { "custom_model_data": 220 }, "model": "custom:item/map/alter_ego_hermits/evil_jevin_r" },
+        { "predicate": { "custom_model_data": 221 }, "model": "custom:item/map/alter_ego_hermits/evil_x_r" },
+        { "predicate": { "custom_model_data": 222 }, "model": "custom:item/map/alter_ego_hermits/frenchralis" },
+        { "predicate": { "custom_model_data": 223 }, "model": "custom:item/map/alter_ego_hermits/frenchralis_r" },
+        { "predicate": { "custom_model_data": 224 }, "model": "custom:item/map/alter_ego_hermits/g_architect" },
+        { "predicate": { "custom_model_data": 225 }, "model": "custom:item/map/alter_ego_hermits/g_architect_r" },
+        { "predicate": { "custom_model_data": 226 }, "model": "custom:item/map/alter_ego_hermits/goatfather_r" },
+        { "predicate": { "custom_model_data": 227 }, "model": "custom:item/map/alter_ego_hermits/helsknight_r" },
+        { "predicate": { "custom_model_data": 228 }, "model": "custom:item/map/alter_ego_hermits/horse_head_hypno" },
+        { "predicate": { "custom_model_data": 229 }, "model": "custom:item/map/alter_ego_hermits/horse_head_hypno_r" },
+        { "predicate": { "custom_model_data": 230 }, "model": "custom:item/map/alter_ego_hermits/hotguy_r" },
+        { "predicate": { "custom_model_data": 231 }, "model": "custom:item/map/alter_ego_hermits/human_cleo_r" },
+        { "predicate": { "custom_model_data": 232 }, "model": "custom:item/map/alter_ego_hermits/joel" },
+        { "predicate": { "custom_model_data": 233 }, "model": "custom:item/map/alter_ego_hermits/joel_r" },
+        { "predicate": { "custom_model_data": 234 }, "model": "custom:item/map/alter_ego_hermits/king_joel" },
+        { "predicate": { "custom_model_data": 235 }, "model": "custom:item/map/alter_ego_hermits/king_joel_r" },
+        { "predicate": { "custom_model_data": 236 }, "model": "custom:item/map/alter_ego_hermits/llamadad_r" },
+        { "predicate": { "custom_model_data": 237 }, "model": "custom:item/map/alter_ego_hermits/original_xb" },
+        { "predicate": { "custom_model_data": 238 }, "model": "custom:item/map/alter_ego_hermits/original_xb_r" },
+        { "predicate": { "custom_model_data": 239 }, "model": "custom:item/map/alter_ego_hermits/overseer" },
+        { "predicate": { "custom_model_data": 240 }, "model": "custom:item/map/alter_ego_hermits/overseer_r" },
+        { "predicate": { "custom_model_data": 241 }, "model": "custom:item/map/alter_ego_hermits/poe_skizz" },
+        { "predicate": { "custom_model_data": 242 }, "model": "custom:item/map/alter_ego_hermits/poe_skizz_r" },
+        { "predicate": { "custom_model_data": 243 }, "model": "custom:item/map/alter_ego_hermits/potato_mumbo" },
+        { "predicate": { "custom_model_data": 244 }, "model": "custom:item/map/alter_ego_hermits/potato_mumbo_r" },
+        { "predicate": { "custom_model_data": 245 }, "model": "custom:item/map/alter_ego_hermits/poultry_man_r" },
+        { "predicate": { "custom_model_data": 246 }, "model": "custom:item/map/alter_ego_hermits/princess_gem" },
+        { "predicate": { "custom_model_data": 247 }, "model": "custom:item/map/alter_ego_hermits/princess_gem_r" },
+        { "predicate": { "custom_model_data": 248 }, "model": "custom:item/map/alter_ego_hermits/shade_e_e" },
+        { "predicate": { "custom_model_data": 249 }, "model": "custom:item/map/alter_ego_hermits/shade_e_e_r" },
+        { "predicate": { "custom_model_data": 250 }, "model": "custom:item/map/alter_ego_hermits/skizz" },
+        { "predicate": { "custom_model_data": 251 }, "model": "custom:item/map/alter_ego_hermits/skizz_r" },
+        { "predicate": { "custom_model_data": 252 }, "model": "custom:item/map/alter_ego_hermits/spooky_stress" },
+        { "predicate": { "custom_model_data": 253 }, "model": "custom:item/map/alter_ego_hermits/spooky_stress_r" },
+        { "predicate": { "custom_model_data": 254 }, "model": "custom:item/map/alter_ego_hermits/steampunk_tango" },
+        { "predicate": { "custom_model_data": 255 }, "model": "custom:item/map/alter_ego_hermits/steampunk_tango_r" },
+        { "predicate": { "custom_model_data": 256 }, "model": "custom:item/map/alter_ego_hermits/worm_man" },
+        { "predicate": { "custom_model_data": 257 }, "model": "custom:item/map/alter_ego_hermits/worm_man_r" }
+
+
     ]
 }
