@@ -24,7 +24,7 @@
       {"predicate": {"custom_model_data":19}, "model": "custom:item/do/artifacts/goldeneye"},
       {"predicate": {"custom_model_data":20}, "model": "custom:item/do/artifacts/omegaeyeofdoom"},
   
-      {"predicate": {"custom_model_data":21}, "model": "custom:item/tcg/token"},
+      {"predicate": {"custom_model_data":21}, "model": "custom:item/token"},
       {"predicate": {"custom_model_data":26}, "model": "custom:item/do/custom_items/deepslate_diamond_ore"},
       
       {"predicate": {"custom_model_data":27}, "model": "custom:item/do/custom_items/les_go"},
@@ -45,6 +45,7 @@
       {"predicate": {"custom_model_data":42}, "model": "custom:item/do/artifacts/hoodofawyeh"},
       {"predicate": {"custom_model_data":43}, "model": "custom:item/do/artifacts/axeofthevoid"},
       {"predicate": {"custom_model_data":44}, "model": "custom:item/do/artifacts/crookofthepinkshepherd"},
+      {"predicate": {"custom_model_data":45}, "model": "custom:item/tcg_prize_evilx"},
       
       {"predicate": {"custom_model_data":46}, "model": "custom:item/do/artifacts/ontiball"},
       {"predicate": {"custom_model_data":47}, "model": "custom:item/do/artifacts/notes"},
@@ -164,6 +165,7 @@
       {"predicate": {"custom_model_data":222}, "model": "custom:item/do/custom_items/kyuu2"},
       {"predicate": {"custom_model_data":223}, "model": "custom:item/do/custom_items/alarm"},
       
+      
       {"predicate": {"custom_model_data":500}, "model": "custom:item/do/custom_items/commons_stack"},
       {"predicate": {"custom_model_data":501}, "model": "custom:item/do/custom_items/uncommons_stack"},
       {"predicate": {"custom_model_data":502}, "model": "custom:item/do/custom_items/rares_stack"},
@@ -187,13 +189,6 @@
       {"predicate": {"custom_model_data":520}, "model": "custom:item/gui/button_unchecked"},
       {"predicate": {"custom_model_data":521}, "model": "custom:item/gui/cursor"},
       {"predicate": {"custom_model_data":522}, "model": "custom:item/gui/cursor_click"},
-
-      {"predicate": {"custom_model_data":600}, "model": "custom:item/tcg/tcg_trophy"},
-      {"predicate": {"custom_model_data":601}, "model": "custom:item/tcg/tcg_prize_evilx"},
-      {"predicate": {"custom_model_data":602}, "model": "custom:item/tcg/tcgpyramid"},
-      {"predicate": {"custom_model_data":603}, "model": "custom:item/tcg/tcg_trophy"},
-      {"predicate": {"custom_model_data":604}, "model": "custom:item/tcg/crystal_trophy"},
-      {"predicate": {"custom_model_data":605}, "model": "custom:item/tcg/final_trophy"},
       
       {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"},
       {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
