@@ -10,7 +10,7 @@
       { "predicate": {"custom_model_data": 4}, "model": "custom:item/do/do_key"},
       { "predicate": {"custom_model_data": 5}, "model": "custom:item/do/do_ticket"},
       { "predicate": {"custom_model_data": 6}, "model": "custom:item/do/do_tome"},
-      { "predicate": {"custom_model_data": 7}, "model": "custom:item/do/do_frozenshard6"},
+      { "predicate": {"custom_model_data": 7}, "model": "custom:item/do/do_shard"},
       
       {"predicate": {"custom_model_data":10}, "model": "custom:item/do/artifacts/pocketwatchofshreep"},
       {"predicate": {"custom_model_data":11}, "model": "custom:item/do/artifacts/rocketship"},
@@ -192,7 +192,7 @@
       {"predicate": {"custom_model_data":601}, "model": "custom:item/tcg/tcg_prize_evilx"},
       {"predicate": {"custom_model_data":602}, "model": "custom:item/tcg/tcgpyramid"},
       {"predicate": {"custom_model_data":603}, "model": "custom:item/tcg/crystal_trophy"},
-      {"predicate": {"custom_model_data":604}, "model": "custom:item/tcg/final_trophy"},
+      {"predicate": {"custom_model_data":604}, "model": "custom:item/tcg/finaltrophy"},
       
       {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"},
       {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}

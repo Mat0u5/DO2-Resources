@@ -67,7 +67,7 @@
 	{ "predicate": {"custom_model_data": 64}, "model": "custom:item/do/hats/ezed_kniezed_helmet"},
 	{ "predicate": {"custom_model_data": 65}, "model": "custom:item/tcg/tcgpyramid"},
 	{ "predicate": {"custom_model_data": 66}, "model": "custom:item/tcg/tcg_prize_evilx"},
-	{ "predicate": {"custom_model_data": 67}, "model": "custom:item/do/deco/finaltrophy"},
+	{ "predicate": {"custom_model_data": 67}, "model": "custom:item/tcg/finaltrophy"},
 	{ "predicate": {"custom_model_data": 68}, "model": "custom:item/tcg/tcg_trophy"},
 	{ "predicate": {"custom_model_data": 69}, "model": "custom:item/hg/hg_1x2_calendar_hotguy"},
 	{ "predicate": {"custom_model_data": 70}, "model": "custom:item/hg/hg_1x2_calendar_hotguy_signed"},

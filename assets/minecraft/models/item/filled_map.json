@@ -1059,7 +1059,7 @@
             "predicate": {
                 "custom_model_data": 176
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/convex_cub"
+            "model": "custom:item/map/alter_ego_hermit_cards/convex_cub_r"
         },
         {
             "predicate": {
@@ -1071,31 +1071,31 @@
             "predicate": {
                 "custom_model_data": 178
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/evil_x"
+            "model": "custom:item/map/alter_ego_hermit_cards/evil_x_r"
         },
         {
             "predicate": {
                 "custom_model_data": 179
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/helsknight"
+            "model": "custom:item/map/alter_ego_hermit_cards/helsknight_r"
         },
         {
             "predicate": {
                 "custom_model_data": 180
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/hotguy"
+            "model": "custom:item/map/alter_ego_hermit_cards/hotguy_r"
         },
         {
             "predicate": {
                 "custom_model_data": 181
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/human_cleo"
+            "model": "custom:item/map/alter_ego_hermit_cards/human_cleo_r"
         },
         {
             "predicate": {
                 "custom_model_data": 182
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/potato_mumbo"
+            "model": "custom:item/map/alter_ego_hermit_cards/potato_mumbo_r"
         },
         {
             "predicate": {
@@ -1107,7 +1107,7 @@
             "predicate": {
                 "custom_model_data": 184
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/renbob"
+            "model": "custom:item/map/alter_ego_hermit_cards/renbob_r"
         },
         {
             "predicate": {
@@ -1173,13 +1173,13 @@
             "predicate": {
                 "custom_model_data": 195
             },
-            "model": "custom:item/map/alter_ego_hermit_cards/goatfather"
+            "model": "custom:item/map/alter_ego_hermit_cards/goatfather_r"
         },
         {
             "predicate": {
                 "custom_model_data": 196
             },
-            "model": "custom:item/map/alter_ego_hermits/llamadad"
+            "model": "custom:item/map/alter_ego_hermit_cards/llamadad_r"
         },
         { "predicate": { "custom_model_data": 197 }, "model": "custom:item/map/custom/hermits/garibaldi" },
         { "predicate": { "custom_model_data": 198 }, "model": "custom:item/map/custom/hermits/mrdungeon" },
@@ -1215,13 +1215,13 @@
         { "predicate": { "custom_model_data": 227 }, "model": "custom:item/map/alter_ego_hermit_cards/helsknight_r" },
         { "predicate": { "custom_model_data": 228 }, "model": "custom:item/map/alter_ego_hermit_cards/horse_head_hypno" },
         { "predicate": { "custom_model_data": 229 }, "model": "custom:item/map/alter_ego_hermit_cards/horse_head_hypno_r" },
-        { "predicate": { "custom_model_data": 230 }, "model": "custom:item/map/alter_ego_hermit_cards/hotguy_r" },
-        { "predicate": { "custom_model_data": 231 }, "model": "custom:item/map/alter_ego_hermit_cards/human_cleo_r" },
+        { "predicate": { "custom_model_data": 230 }, "model": "custom:item/map/alter_ego_hermit_cards/hotguy" },
+        { "predicate": { "custom_model_data": 231 }, "model": "custom:item/map/alter_ego_hermit_cards/human_cleo" },
         { "predicate": { "custom_model_data": 232 }, "model": "custom:item/map/alter_ego_hermit_cards/joel" },
         { "predicate": { "custom_model_data": 233 }, "model": "custom:item/map/alter_ego_hermit_cards/joel_r" },
         { "predicate": { "custom_model_data": 234 }, "model": "custom:item/map/alter_ego_hermit_cards/king_joel" },
         { "predicate": { "custom_model_data": 235 }, "model": "custom:item/map/alter_ego_hermit_cards/king_joel_r" },
-        { "predicate": { "custom_model_data": 236 }, "model": "custom:item/map/alter_ego_hermit_cards/llamadad_r" },
+        { "predicate": { "custom_model_data": 236 }, "model": "custom:item/map/alter_ego_hermit_cards/llamadad" },
         { "predicate": { "custom_model_data": 237 }, "model": "custom:item/map/alter_ego_hermit_cards/original_xb" },
         { "predicate": { "custom_model_data": 238 }, "model": "custom:item/map/alter_ego_hermit_cards/original_xb_r" },
         { "predicate": { "custom_model_data": 239 }, "model": "custom:item/map/alter_ego_hermit_cards/overseer" },
@@ -1243,7 +1243,7 @@
         { "predicate": { "custom_model_data": 255 }, "model": "custom:item/map/alter_ego_hermit_cards/steampunk_tango_r" },
         { "predicate": { "custom_model_data": 256 }, "model": "custom:item/map/alter_ego_hermit_cards/worm_man" },
         { "predicate": { "custom_model_data": 257 }, "model": "custom:item/map/alter_ego_hermit_cards/worm_man_r" },
-        { "predicate": { "custom_model_data": 258 }, "model": "custom:item/map/alter_ego_hermit_cards/renbob_r" }
+        { "predicate": { "custom_model_data": 258 }, "model": "custom:item/map/alter_ego_hermit_cards/renbob" }
 
 
     ]
