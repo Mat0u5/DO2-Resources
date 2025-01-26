@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "custom:item/crystal_trophy",
+	"parent": "custom:item/tcg/crystal_trophy",
 	"texture_size": [128, 128],
 	"textures": {
 		"2": "custom:item/tcg/finaltrophy"

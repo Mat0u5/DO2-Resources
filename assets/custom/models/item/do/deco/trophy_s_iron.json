@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "custom:item/trophy_gold",
+	"parent": "custom:item/do/deco/trophy_gold",
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "custom:item/do/deco/trophy_s_iron"
