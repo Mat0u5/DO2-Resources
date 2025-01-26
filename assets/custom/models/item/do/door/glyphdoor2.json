@@ -2,7 +2,7 @@
 	"credit": "CJMoseley (Moselbop) for TangoTek",
 	"textures": {
 		"0": "custom:item/do/door/blue_chiseled_glowing_netherbrick",
-		"particle": "custom:item/do/door/red_chiseled_nether_bricks_glowing"
+		"particle": "custom:item/do/door/blue_chiseled_nether_bricks_glowing"
 	},
 	"elements": [
 		{

@@ -1243,7 +1243,7 @@
         { "predicate": { "custom_model_data": 255 }, "model": "custom:item/map/alter_ego_hermit_cards/steampunk_tango_r" },
         { "predicate": { "custom_model_data": 256 }, "model": "custom:item/map/alter_ego_hermit_cards/worm_man" },
         { "predicate": { "custom_model_data": 257 }, "model": "custom:item/map/alter_ego_hermit_cards/worm_man_r" },
-        { "predicate": { "custom_model_data": 257 }, "model": "custom:item/map/alter_ego_hermit_cards/renbob_r" }
+        { "predicate": { "custom_model_data": 258 }, "model": "custom:item/map/alter_ego_hermit_cards/renbob_r" }
 
 
     ]
