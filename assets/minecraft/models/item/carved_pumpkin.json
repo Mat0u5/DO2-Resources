@@ -81,7 +81,7 @@
 	{ "predicate": {"custom_model_data": 78}, "model": "custom:item/do/hats/mid_crown"},
 	{ "predicate": {"custom_model_data": 79}, "model": "custom:item/do/hats/mumbo_crown_purple"},
 	{ "predicate": {"custom_model_data": 80}, "model": "custom:item/do/hats/zed_shepherd"},
-	{ "predicate": {"custom_model_data": 81}, "model": "custom:item/simulation_block"},
+	{ "predicate": {"custom_model_data": 81}, "model": "custom:item/do/door/glyphdoor2"},
 	{ "predicate": {"custom_model_data": 82}, "model": "custom:item/scarland_ticketbook"},
 	{ "predicate": {"custom_model_data": 83}, "model": "custom:item/scarland_ticketbook_gold"},
 	{ "predicate": {"custom_model_data": 84}, "model": "custom:item/do/hats/pearl_hardhat"},
