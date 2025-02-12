@@ -11,7 +11,9 @@
       { "predicate": {"custom_model_data": 5}, "model": "custom:item/do/do_ticket"},
       { "predicate": {"custom_model_data": 6}, "model": "custom:item/do/do_tome"},
       { "predicate": {"custom_model_data": 7}, "model": "custom:item/do/do_shard"},
-      
+      { "predicate": {"custom_model_data": 8}, "model": "custom:item/do/do_tome3"},
+      { "predicate": {"custom_model_data": 9}, "model": "custom:item/do/do_tome5"},
+
       {"predicate": {"custom_model_data":10}, "model": "custom:item/do/artifacts/pocketwatchofshreep"},
       {"predicate": {"custom_model_data":11}, "model": "custom:item/do/artifacts/rocketship"},
       {"predicate": {"custom_model_data":12}, "model": "custom:item/do/artifacts/chiseloftheundeadsculptress"},

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "custom:item/do/do_tome"
+		"layer0": "custom:item/do/do_shard5"
 	},
 	"display": {
 		"thirdperson_righthand": {
@@ -21,8 +21,17 @@
 			"rotation": [0, -75, 17],
 			"translation": [3.5, 2.25, 0]
 		},
+		"ground": {
+			"scale": [1.1, 1.4, 1]
+		},
+		"gui": {
+			"scale": [1.1, 1.4, 1]
+		},
 		"head": {
-			"scale": [1, 0.98, 1]
+			"scale": [1.75, 1.75, 1]
+		},
+		"fixed": {
+			"scale": [1.1, 1.4, 1]
 		}
 	}
 }
