@@ -201,7 +201,7 @@
     },
     "do_atmospherics_ghostlywhisper": {
         "sounds": [
-            "do/eb56e58d-f5e8-4a6c-a224-62d6ca0632c2"
+            "do/ghostlywhisper"
         ]
     },
     "chill_step": {
