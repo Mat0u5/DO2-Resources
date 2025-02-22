@@ -27,6 +27,11 @@
       {"predicate": {"custom_model_data":20}, "model": "custom:item/do/artifacts/omegaeyeofdoom"},
   
       {"predicate": {"custom_model_data":21}, "model": "custom:item/tcg/token"},
+      {"predicate": {"custom_model_data":22}, "model": "custom:item/do/custom_items/do_casual1_1"},
+      {"predicate": {"custom_model_data":23}, "model": "custom:item/do/custom_items/do_casual1_2"},
+      {"predicate": {"custom_model_data":24}, "model": "custom:item/do/custom_items/do_casual2"},
+      {"predicate": {"custom_model_data":25}, "model": "custom:item/do/custom_items/do_deadlock"},
+
       {"predicate": {"custom_model_data":26}, "model": "custom:item/do/custom_items/deepslate_diamond_ore"},
       
       {"predicate": {"custom_model_data":27}, "model": "custom:item/do/custom_items/les_go"},
