@@ -143,7 +143,8 @@
      { "predicate": {"custom_model_data": 172}, "model": "custom:item/do/cards/serene_safety"},
      { "predicate": {"custom_model_data": 173}, "model": "custom:item/do/cards/gold_by_the_gallon"},
      { "predicate": {"custom_model_data": 174}, "model": "custom:item/do/cards/restoring_veil"},
-     
+     { "predicate": {"custom_model_data": 175}, "model": "custom:item/do/cards/haste"},
+
       {"predicate": {"custom_model_data":198}, "model": "custom:item/do/keys/staircase1"},
       {"predicate": {"custom_model_data":199}, "model": "custom:item/do/keys/staircase2"},
       {"predicate": {"custom_model_data":200}, "model": "custom:item/do/keys/staircase3"},
