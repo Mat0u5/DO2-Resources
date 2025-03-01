@@ -5,17 +5,17 @@
   },
   "overrides": [
     {"predicate": {"custom_model_data":1}, "model": "custom:item/do/custom_items/silk_cloth"},
-    {"predicate": {"custom_model_data":100}, "model": "custom:item/do/monopoly/andesite"},
-    {"predicate": {"custom_model_data":101}, "model": "custom:item/do/monopoly/basalt"},
-    {"predicate": {"custom_model_data":102}, "model": "custom:item/do/monopoly/blackstone"},
-    {"predicate": {"custom_model_data":103}, "model": "custom:item/do/monopoly/bomb"},
-    {"predicate": {"custom_model_data":104}, "model": "custom:item/do/monopoly/bricks"},
-    {"predicate": {"custom_model_data":105}, "model": "custom:item/do/monopoly/chance"},
-    {"predicate": {"custom_model_data":106}, "model": "custom:item/do/monopoly/cobbleddeepslate"},
-    {"predicate": {"custom_model_data":107}, "model": "custom:item/do/monopoly/community"},
-    {"predicate": {"custom_model_data":108}, "model": "custom:item/do/monopoly/doors"},
-    {"predicate": {"custom_model_data":109}, "model": "custom:item/do/monopoly/ice"},
-    {"predicate": {"custom_model_data":110}, "model": "custom:item/do/monopoly/rusty"}
+    {"predicate": {"custom_model_data":100}, "model": "custom:item/monopoly/andesite"},
+    {"predicate": {"custom_model_data":101}, "model": "custom:item/monopoly/basalt"},
+    {"predicate": {"custom_model_data":102}, "model": "custom:item/monopoly/blackstone"},
+    {"predicate": {"custom_model_data":103}, "model": "custom:item/monopoly/bomb"},
+    {"predicate": {"custom_model_data":104}, "model": "custom:item/monopoly/bricks"},
+    {"predicate": {"custom_model_data":105}, "model": "custom:item/monopoly/chance"},
+    {"predicate": {"custom_model_data":106}, "model": "custom:item/monopoly/cobbleddeepslate"},
+    {"predicate": {"custom_model_data":107}, "model": "custom:item/monopoly/community"},
+    {"predicate": {"custom_model_data":108}, "model": "custom:item/monopoly/doors"},
+    {"predicate": {"custom_model_data":109}, "model": "custom:item/monopoly/ice"},
+    {"predicate": {"custom_model_data":110}, "model": "custom:item/monopoly/rusty"}
 
   ]
 }
