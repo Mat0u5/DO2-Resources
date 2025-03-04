@@ -4,6 +4,10 @@
     "layer0": "minecraft:item/ender_eye"
   },
   "overrides": [
-    {"predicate": {"custom_model_data":1}, "model": "custom:item/do/custom_items/dungeon_scroll"}
+    {"predicate": {"custom_model_data":1}, "model": "custom:item/do/custom_items/dungeon_scroll"},
+    {"predicate": {"custom_model_data":-1}, "model": "custom:item/monopoly/dice"},
+    {"predicate": {"custom_model_data":-2}, "model": "custom:item/monopoly/chance_eye"},
+    {"predicate": {"custom_model_data":-3}, "model": "custom:item/monopoly/community_eye"}
+
   ]
 }
