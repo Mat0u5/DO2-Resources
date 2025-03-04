@@ -5,9 +5,9 @@
   },
   "overrides": [
     {"predicate": {"custom_model_data":1}, "model": "custom:item/do/custom_items/dungeon_scroll"},
-    {"predicate": {"custom_model_data":-1}, "model": "custom:item/monopoly/dice"},
-    {"predicate": {"custom_model_data":-2}, "model": "custom:item/monopoly/chance_eye"},
-    {"predicate": {"custom_model_data":-3}, "model": "custom:item/monopoly/community_eye"}
+    {"predicate": {"custom_model_data":500}, "model": "custom:item/monopoly/dice"},
+    {"predicate": {"custom_model_data":501}, "model": "custom:item/monopoly/chance_eye"},
+    {"predicate": {"custom_model_data":502}, "model": "custom:item/monopoly/community_eye"}
 
   ]
 }
