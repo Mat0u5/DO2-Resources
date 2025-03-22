@@ -607,6 +607,54 @@
         ]
    },
 
+   
+    "do2.game.recycle_1": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_1"
+        ]
+   },
+    "do2.game.recycle_2": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_2"
+        ]
+   },
+    "do2.game.recycle_3": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_3"
+        ]
+   },
+    "do2.game.recycle_4": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_4"
+        ]
+   },
+    "do2.game.recycle_5": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_5"
+        ]
+   },
+    "do2.game.recycle_6": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_6"
+        ]
+   },
+    "do2.game.recycle_7": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_7"
+        ]
+   },
+    "do2.game.recycle_8": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_8"
+        ]
+   },
+    "do2.game.recycle_9": {
+        "sounds": [
+            "do/card_callouts/do2.game.recycle_9"
+        ]
+   },
+
+   
     "do2.clank.blocked_1": {
         "sounds": [
             "do/system_sounds/heart/clank/do2.clank.blocked_1"
