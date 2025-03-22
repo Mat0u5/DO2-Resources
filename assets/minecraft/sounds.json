@@ -566,6 +566,11 @@
             "do/card_callouts/do2.card.spirit_sense"
         ]
    },
+    "do2.card.sprint": {
+        "sounds": [
+            "do/card_callouts/do2.card.sprint"
+        ]
+   },
     "do2.card.stability": {
         "sounds": [
             "do/card_callouts/do2.card.stability"
