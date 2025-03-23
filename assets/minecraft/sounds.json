@@ -1011,10 +1011,116 @@
             "tcg/tcg.onti_bus"
         ]
    },
-   
-    "tcg.evil_x": {
+
+
+    "tcg.evil_x.2x_dmg": {
         "sounds": [
-            "tcg/evil_x_boss/tcg."
+            "tcg/evil_x_boss/tcg.evilx.2x_dmg"
+        ]
+   },
+    "tcg.evil_x.50_dmg": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.50_dmg"
+        ]
+   },
+    "tcg.evil_x.60_dmg": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.60_dmg"
+        ]
+   },
+    "tcg.evil_x.70_dmg": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.70_dmg"
+        ]
+   },
+    "tcg.evil_x.80_dmg": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.80_dmg"
+        ]
+   },
+    "tcg.evil_x.90_dmg": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.90_dmg"
+        ]
+   },
+    "tcg.evil_x.boss.point_loss": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.boss_-1_hp"
+        ]
+   },
+    "tcg.evil_x.burn": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.burn_stat"
+        ]
+   },
+    "tcg.evil_x.flip_2x_dmg": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.coin_2x_dmg"
+        ]
+   },
+    "tcg.evil_x.discard_card": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.discard_card"
+        ]
+   },
+    "tcg.evil_x.discard_hand": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.discard_hand"
+        ]
+   },
+    "tcg.evil_x.game_end": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.game_end"
+        ]
+   },
+    "tcg.evil_x.game_start": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.game_start"
+        ]
+   },
+    "tcg.evil_x.heal_50": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.heal_50"
+        ]
+   },
+    "tcg.evil_x.heal_100": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.heal_100"
+        ]
+   },
+    "tcg.evil_x.heal_150": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.heal_150"
+        ]
+   },
+    "tcg.evil_x.player.point_loss": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.player.-1_point"
+        ]
+   },
+    "tcg.evil_x.player.victory": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.player.victory"
+        ]
+   },
+    "tcg.evil_x.remove_attached": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.remove_attached"
+        ]
+   },
+    "tcg.evil_x.remove_items": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.remove_items"
+        ]
+   },
+    "tcg.evil_x.remove_attached/items": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.remove_attached_items"
+        ]
+   },
+    "tcg.evil_x.sound_test": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.sound_debug"
         ]
    }
 
