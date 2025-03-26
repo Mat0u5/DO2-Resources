@@ -1122,6 +1122,16 @@
         "sounds": [
             "tcg/evil_x_boss/tcg.evilx.sound_debug"
         ]
+   },
+    "tcg.bus_stop.fnaf_toreador": {
+        "sounds": [
+            "tcg/bus_stops/tcg.bus_stop.toreador"
+        ]
+   },
+    "tcg.fnaf.honk": {
+        "sounds": [
+            "tcg/bus_stops/tcg.misc.honk_honk"
+        ]
    }
 
 }
