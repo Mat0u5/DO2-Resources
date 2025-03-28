@@ -204,6 +204,7 @@
       {"predicate": {"custom_model_data":605}, "model": "custom:item/tcg/tcgi"},
       {"predicate": {"custom_model_data":606}, "model": "custom:item/tcg/misc/blue_skull"},
       {"predicate": {"custom_model_data":607}, "model": "custom:item/tcg/misc/rotom_eye"},
+      {"predicate": {"custom_model_data":608}, "model": "custom:item/tcg/tcgi_preview"},
 
       {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"},
       {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
