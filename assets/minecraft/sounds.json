@@ -1132,6 +1132,11 @@
         "sounds": [
             "tcg/bus_stops/tcg.misc.honk_honk"
         ]
+   },
+   "tcg.ultrakill.skull_grab": {
+    "sounds": [
+        "tcg/tcg.ultrakill.skull_grab"
+    ]
    }
 
 }
