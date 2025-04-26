@@ -1,14 +1,14 @@
 {
 	"credit": "Created by Mat0u5 for TangoTek's amazing game.",
 	"textures": {
-		"8": "custom:item/do/cards/faces/none",
-		"9": "custom:item/do/cards/icons/ethereal",
-		"10": "custom:item/do/cards/icons/card_0",
-		"46": "custom:item/do/cards/borders/normal_legendary",
-		"47": "custom:item/do/cards/cardtext/blank",
-		"49": "custom:item/do/cards/borders/no_perm",
-		"50": "custom:item/do/cards/title/blank",
-		"270": "custom:item/do/cards/backgrounds/blank",
+		"8": "custom:item/do/cards/faces/fuzzyy_bunny_slippers",
+		"9": "custom:item/do/cards/icons/permanent",
+		"10": "custom:item/do/cards/icons/cards1",
+		"46": "custom:item/do/cards/borders/normal_rare",
+		"47": "custom:item/do/cards/cardtext/bb_slippers",
+		"49": "custom:item/do/cards/borders/reinforced",
+		"50": "custom:item/do/cards/title/bb_slippers2",
+		"270": "custom:item/do/cards/backgrounds/frosted",
 		"280": "custom:item/do/cards/blank_cardback",
 		"particle": "custom:item/do/cards/blank_cardback"
 	},

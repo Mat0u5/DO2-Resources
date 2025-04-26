@@ -1,14 +1,14 @@
 {
 	"credit": "Created by Mat0u5 for TangoTek's amazing game.",
 	"textures": {
-		"8": "custom:item/do/cards/faces/none",
-		"9": "custom:item/do/cards/icons/ethereal",
-		"10": "custom:item/do/cards/icons/card_0",
-		"46": "custom:item/do/cards/borders/normal_legendary",
-		"47": "custom:item/do/cards/cardtext/blank",
+		"8": "custom:item/do/cards/faces/meditate",
+		"9": "custom:item/do/cards/icons/card_0",
+		"10": "custom:item/do/cards/icons/cards3",
+		"46": "custom:item/do/cards/borders/normal_uncommon",
+		"47": "custom:item/do/cards/cardtext/equilibrium",
 		"49": "custom:item/do/cards/borders/no_perm",
-		"50": "custom:item/do/cards/title/blank",
-		"270": "custom:item/do/cards/backgrounds/blank",
+		"50": "custom:item/do/cards/title/equilibrium2",
+		"270": "custom:item/do/cards/backgrounds/frozencave",
 		"280": "custom:item/do/cards/blank_cardback",
 		"particle": "custom:item/do/cards/blank_cardback"
 	},

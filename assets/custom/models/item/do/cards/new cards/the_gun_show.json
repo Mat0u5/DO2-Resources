@@ -1,14 +1,14 @@
 {
 	"credit": "Created by Mat0u5 for TangoTek's amazing game.",
 	"textures": {
-		"8": "custom:item/do/cards/faces/none",
+		"8": "custom:item/do/cards/faces/glorious_moment",
 		"9": "custom:item/do/cards/icons/ethereal",
-		"10": "custom:item/do/cards/icons/card_0",
-		"46": "custom:item/do/cards/borders/normal_legendary",
-		"47": "custom:item/do/cards/cardtext/blank",
+		"10": "custom:item/do/cards/icons/cards3",
+		"46": "custom:item/do/cards/borders/normal_uncommon",
+		"47": "custom:item/do/cards/cardtext/the_gun_show",
 		"49": "custom:item/do/cards/borders/no_perm",
-		"50": "custom:item/do/cards/title/blank",
-		"270": "custom:item/do/cards/backgrounds/blank",
+		"50": "custom:item/do/cards/title/the_gun_show2",
+		"270": "custom:item/do/cards/backgrounds/beast_sense",
 		"280": "custom:item/do/cards/blank_cardback",
 		"particle": "custom:item/do/cards/blank_cardback"
 	},
@@ -74,8 +74,9 @@
 			}
 		},
 		{
-			"from": [0.1875, 6.3125, 2.3125],
-			"to": [0.1875, 10.625, 6.625],
+			"from": [0.1875, 6.3125, 4.3125],
+			"to": [0.1875, 10.625, 8.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 2]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.16351, 16], "texture": "#8"},
 				"east": {"uv": [0, 0, 15.65217, 16], "texture": "#8"},

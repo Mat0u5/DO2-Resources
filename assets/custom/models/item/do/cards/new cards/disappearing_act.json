@@ -1,16 +1,16 @@
 {
 	"credit": "Created by Mat0u5 for TangoTek's amazing game.",
 	"textures": {
-		"8": "custom:item/do/cards/faces/none",
-		"9": "custom:item/do/cards/icons/ethereal",
-		"10": "custom:item/do/cards/icons/card_0",
-		"46": "custom:item/do/cards/borders/normal_legendary",
-		"47": "custom:item/do/cards/cardtext/blank",
+		"8": "custom:item/do/cards/faces/vanish",
+		"9": "custom:item/do/cards/icons/cards1",
+		"42": "custom:item/do/cards/icons/card_0",
+		"46": "custom:item/do/cards/borders/normal_rare",
+		"47": "custom:item/do/cards/cardtext/disappearing_act",
 		"49": "custom:item/do/cards/borders/no_perm",
-		"50": "custom:item/do/cards/title/blank",
-		"270": "custom:item/do/cards/backgrounds/blank",
-		"280": "custom:item/do/cards/blank_cardback",
-		"particle": "custom:item/do/cards/blank_cardback"
+		"50": "custom:item/do/cards/title/disappearing_act",
+		"270": "custom:item/do/cards/backgrounds/frozencave",
+		"280": "custom:item/do/cards/cardback",
+		"particle": "custom:item/do/cards/cardback"
 	},
 	"elements": [
 		{
@@ -65,12 +65,12 @@
 			"from": [0.3125, 11.75, 0.1875],
 			"to": [0.3125, 12.75, 1.1875],
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"east": {"uv": [0.17391, 0, 15.82609, 15.82609], "texture": "#10"},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"west": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
+				"north": {"uv": [0, 0, 0, 0], "texture": "#9"},
+				"east": {"uv": [0.17391, 0, 15.82609, 15.82609], "texture": "#9"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#9"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#9"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#9"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#9"}
 			}
 		},
 		{
@@ -125,12 +125,12 @@
 			"from": [0.3125, 5.375, 0.6875],
 			"to": [0.3125, 5.863, 8.3125],
 			"faces": {
-				"north": {"uv": [0, 0, 0.22222, 0], "texture": "#10"},
-				"east": {"uv": [0, 0.256, 16, 16], "texture": "#9"},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#10"},
-				"west": {"uv": [0, 0, 0, 0], "texture": "#10"},
-				"up": {"uv": [0, 0, 0, 0.17838], "texture": "#10"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#10"}
+				"north": {"uv": [0, 0, 0.22222, 0], "texture": "#42"},
+				"east": {"uv": [0, 0.256, 16, 16], "texture": "#42"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#42"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#42"},
+				"up": {"uv": [0, 0, 0, 0.17838], "texture": "#42"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#42"}
 			}
 		}
 	],

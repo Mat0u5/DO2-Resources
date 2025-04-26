@@ -1,14 +1,14 @@
 {
 	"credit": "Created by Mat0u5 for TangoTek's amazing game.",
 	"textures": {
-		"8": "custom:item/do/cards/faces/none",
-		"9": "custom:item/do/cards/icons/ethereal",
-		"10": "custom:item/do/cards/icons/card_0",
+		"8": "custom:item/do/cards/faces/glorious_moment",
+		"9": "custom:item/do/cards/icons/permanent_and_ethereal",
+		"10": "custom:item/do/cards/icons/cards1",
 		"46": "custom:item/do/cards/borders/normal_legendary",
-		"47": "custom:item/do/cards/cardtext/blank",
-		"49": "custom:item/do/cards/borders/no_perm",
-		"50": "custom:item/do/cards/title/blank",
-		"270": "custom:item/do/cards/backgrounds/blank",
+		"47": "custom:item/do/cards/cardtext/citadels_champion",
+		"49": "custom:item/do/cards/borders/reinforced",
+		"50": "custom:item/do/cards/title/citadels_champion2",
+		"270": "custom:item/do/cards/backgrounds/deepfrost",
 		"280": "custom:item/do/cards/blank_cardback",
 		"particle": "custom:item/do/cards/blank_cardback"
 	},
@@ -90,7 +90,7 @@
 			"to": [0.0625, 12.5, 8.5625],
 			"faces": {
 				"north": {"uv": [16, 0, 16, 0], "texture": "#270"},
-				"east": {"uv": [2.20705, 2.24, 14.848, 16], "texture": "#270"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#270"},
 				"south": {"uv": [16, 0, 16, 0], "texture": "#270"},
 				"west": {"uv": [16, 0, 16, 0], "texture": "#270"},
 				"up": {"uv": [0, 0, 0, 0], "texture": "#270"},
