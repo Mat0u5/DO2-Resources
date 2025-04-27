@@ -371,7 +371,17 @@
             "do/card_callouts/do2.card.cold_snap"
         ]
    },
-    "do2.card.dead_mans_hand": {
+   "do2.card.composure": {
+    "sounds": [
+        "do/card_callouts/do2.card.composure"
+    ]
+   },
+    "do2.card.consolidation": {
+        "sounds": [
+            "do/card_callouts/do2.card.consolidation"
+        ]
+   },
+   "do2.card.dead_mans_hand": {
         "sounds": [
             "do/card_callouts/do2.card.dead_mans_hand"
         ]
@@ -431,6 +441,11 @@
             "do/card_callouts/do2.card.eureka_1"
         ]
    },
+    "do2.card.eureka_2": {
+        "sounds": [
+            "do/card_callouts/do2.card.eureka_2"
+        ]
+   },
     "do2.card.evasion": {
         "sounds": [
             "do/card_callouts/do2.card.evasion"
@@ -446,12 +461,28 @@
             "do/card_callouts/do2.card.eviction_activate"
         ]
    },
-    "do2.card.eyes_on_the_prize": {
+    "do2.card.equilibrium": {
+        "sounds": [
+            "do/card_callouts/do2.card.equilibrium"
+        ]
+   },
+
+   "do2.card.eyes_on_the_prize": {
         "sounds": [
             "do/card_callouts/do2.card.eyes_on_the_prize"
         ]
    },
-    "do2.card.frost_focus": {
+    "do2.card.feeding_frenzy": {
+        "sounds": [
+            "do/card_callouts/do2.card.feeding_frenzy"
+        ]
+   },
+    "do2.card.finders_keepers": {
+        "sounds": [
+            "do/card_callouts/do2.card.finders_keepers"
+        ]
+   },
+   "do2.card.frost_focus": {
         "sounds": [
             "do/card_callouts/do2.card.frost_focus"
         ]
@@ -474,6 +505,11 @@
     "do2.card.haste": {
         "sounds": [
             "do/card_callouts/do2.card.haste"
+        ]
+   },
+    "do2.card.hopscotch": {
+        "sounds": [
+            "do/card_callouts/do2.card.hopscotch"
         ]
    },
     "do2.card.loot_and_scoot": {
@@ -499,6 +535,11 @@
     "do2.card.pay_to_win": {
         "sounds": [
             "do/card_callouts/do2.card.pay_to_win"
+        ]
+   },
+    "do2.card.package_deal": {
+        "sounds": [
+            "do/card_callouts/do2.card.package_deal"
         ]
    },
     "do2.card.pirates_booty": {
@@ -544,6 +585,11 @@
     "do2.card.rot": {
         "sounds": [
             "do/card_callouts/do2.card.rot"
+        ]
+   },
+    "do2.card.scatter": {
+        "sounds": [
+            "do/card_callouts/do2.card.scatter"
         ]
    },
     "do2.card.second_wind": {
@@ -594,6 +640,16 @@
     "do2.card.tippy_toes": {
         "sounds": [
             "do/card_callouts/do2.card.tippy_toes"
+        ]
+   },
+    "do2.card.the_gun_show": {
+        "sounds": [
+            "do/card_callouts/do2.card.the_gun_show"
+        ]
+   },
+    "do2.card.trailblazer": {
+        "sounds": [
+            "do/card_callouts/do2.card.trailblazer"
         ]
    },
     "do2.card.tread_lightly": {
