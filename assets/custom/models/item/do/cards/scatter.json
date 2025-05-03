@@ -2,8 +2,8 @@
 	"credit": "Created by Mat0u5 for TangoTek's amazing game.",
 	"textures": {
 		"8": "custom:item/do/cards/faces/headache",
-		"9": "custom:item/do/cards/icons/ethereal",
-		"10": "custom:item/do/cards/icons/cards3",
+		"9": "custom:item/do/cards/icons/card_0",
+		"10": "custom:item/do/cards/icons/cards1",
 		"46": "custom:item/do/cards/borders/normal_rare",
 		"47": "custom:item/do/cards/cardtext/scatter",
 		"49": "custom:item/do/cards/borders/no_perm",
