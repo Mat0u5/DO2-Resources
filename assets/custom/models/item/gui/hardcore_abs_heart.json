@@ -3,5 +3,11 @@
 	"parent": "minecraft:item/generated",
 	"textures": {
 		"layer0": "custom:item/gui/absorbing_hardcore_full"
+	},
+	"display": {
+		"head": {
+			"translation": [0, 0.01, -3],
+			"scale": [1.5, 1.5, 1]
+		}
 	}
 }
