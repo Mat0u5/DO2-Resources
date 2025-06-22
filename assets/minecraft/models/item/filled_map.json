@@ -284,7 +284,11 @@
         { "predicate": { "custom_model_data": 324 }, "model": "custom:item/tcg/cards/effects/ultra_rare/netherite_sword" },
         { "predicate": { "custom_model_data": 325 }, "model": "custom:item/tcg/cards/effects/ultra_rare/sweeping_edge" },
         { "predicate": { "custom_model_data": 326 }, "model": "custom:item/tcg/cards/effects/ultra_rare/thorns_3" },
-        { "predicate": { "custom_model_data": 327 }, "model": "custom:item/tcg/cards/effects/ultra_rare/totem_of_undying" }
+        { "predicate": { "custom_model_data": 327 }, "model": "custom:item/tcg/cards/effects/ultra_rare/totem_of_undying" },
+
+        { "predicate": { "custom_model_data": 998 }, "model": "custom:item/tcg/cards/effects/burn_card" },
+        { "predicate": { "custom_model_data": 999 }, "model": "custom:item/tcg/cards/effects/poison_card" },
+        { "predicate": { "custom_model_data": 1000 }, "model": "custom:item/tcg/cards/card_back" }
 
     ]
 }
