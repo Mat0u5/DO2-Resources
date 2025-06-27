@@ -124,6 +124,7 @@
         {"predicate": {"custom_model_data":121}, "model": "custom:item/do/hats/headset"},
         {"predicate": {"custom_model_data":122}, "model": "custom:item/do/hats/beekeeper"},
         {"predicate": {"custom_model_data":123}, "model": "custom:item/do/hats/neuralink"},
+        {"predicate": {"custom_model_data":124}, "model": "custom:item/do/hats/bill_hat"},
 
 
         {"predicate": {"custom_model_data":400}, "model": "custom:item/tcg/misc/birda"},
