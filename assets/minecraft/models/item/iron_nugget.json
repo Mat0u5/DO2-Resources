@@ -219,6 +219,7 @@
     {"predicate": {"custom_model_data":608}, "model": "custom:item/tcg/tcgi_preview"},
     {"predicate": {"custom_model_data":609}, "model": "custom:item/tcg/misc/bird"},
     {"predicate": {"custom_model_data":610}, "model": "custom:item/tcg/cards/holo_test"},
+    {"predicate": {"custom_model_data":611}, "model": "custom:item/tcg/misc/spiritomb"},
 
     {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"},
     {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
