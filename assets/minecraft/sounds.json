@@ -1191,8 +1191,12 @@
    },
    "tcg.ultrakill.skull_grab": {
     "sounds": [
-        "tcg/tcg.ultrakill.skull_grab"
+        "tcg/misc/tcg.ultrakill.skull_grab"
     ]
+   },
+    "tcg.secret.portal_radio": {
+        "sounds": [
+            "tcg/misc/tcg.secret.portal_radio"
+        ]
    }
-
 }
