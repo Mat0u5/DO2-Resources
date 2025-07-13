@@ -4,7 +4,7 @@
     "layer0": "minecraft:item/iron_nugget"
   },
   "overrides": [
-    { "predicate": {"custom_model_data": 1}, "model": "custom:item/do/do_ticket"},
+    { "predicate": {"custom_model_data": 1}, "model": "custom:item/do/do_coin"},
     { "predicate": {"custom_model_data": 2}, "model": "custom:item/do/do_crown"},
     { "predicate": {"custom_model_data": 3}, "model": "custom:item/do/do_ember"},
     { "predicate": {"custom_model_data": 4}, "model": "custom:item/do/do_key"},
