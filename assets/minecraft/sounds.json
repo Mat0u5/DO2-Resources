@@ -1169,7 +1169,7 @@
             "tcg/evil_x_boss/tcg.evilx.remove_items"
         ]
    },
-    "tcg.evil_x.remove_attached/items": {
+    "tcg.evil_x.remove_attached_items": {
         "sounds": [
             "tcg/evil_x_boss/tcg.evilx.remove_attached_items"
         ]
