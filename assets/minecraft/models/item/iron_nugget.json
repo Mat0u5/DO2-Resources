@@ -221,6 +221,7 @@
     {"predicate": {"custom_model_data":610}, "model": "custom:item/tcg/cards/holo_test"},
     {"predicate": {"custom_model_data":611}, "model": "custom:item/tcg/misc/spiritomb"},
     {"predicate": {"custom_model_data":612}, "model": "custom:item/tcg/misc/id_card"},
+    {"predicate": {"custom_model_data":613}, "model": "custom:item/tcg/misc/pale_sign"},
 
     {"predicate": {"custom_model_data":1027}, "model": "custom:item/do/custom_items/loot_spawner"},
     {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
