@@ -1198,5 +1198,11 @@
         "sounds": [
             "tcg/misc/tcg.secret.portal_radio"
         ]
+   },
+    "tcg.secret.fountain_make": {
+        "sounds": [
+            "tcg/misc/tcg.secret.fountain_make"
+        ]
    }
+
 }
