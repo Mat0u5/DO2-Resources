@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "custom:item/gun/gun_base",
-		"1": "Downloads/mc_skin",
+		"1": "custom:item/gun/mc_skin",
 		"particle": "custom:item/gun/gun_base"
 	},
 	"elements": [
