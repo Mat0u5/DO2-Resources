@@ -213,7 +213,7 @@
     {"predicate": {"custom_model_data":602}, "model": "custom:item/tcg/tcgpyramid"},
     {"predicate": {"custom_model_data":603}, "model": "custom:item/tcg/crystal_trophy"},
     {"predicate": {"custom_model_data":604}, "model": "custom:item/tcg/finaltrophy"},
-    {"predicate": {"custom_model_data":605}, "model": "custom:item/tcg/tcgi"},
+    {"predicate": {"custom_model_data":605}, "model": "custom:item/tcg/tcgi_new"},
     {"predicate": {"custom_model_data":606}, "model": "custom:item/tcg/misc/blue_skull"},
     {"predicate": {"custom_model_data":607}, "model": "custom:item/tcg/misc/rotom_eye"},
     {"predicate": {"custom_model_data":608}, "model": "custom:item/tcg/tcgi_preview"},
