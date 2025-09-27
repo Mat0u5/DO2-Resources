@@ -72,17 +72,6 @@ jobs:
         find: "\nresource-pack-sha1="
         replace: "\nresource-pack-sha1=${{env.CHECKSUM}}"
         regex: false
-        
-    - name: Upload serverresourcepackreload.properties to FileZilla
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      with:
-         username: ${{ secrets.FTP_USER }}
-         server: ${{ secrets.FTP_HOST }}
-         port: ${{ secrets.FTP_PORT }}
-         password: ${{ secrets.FTP_PASSWORD }}
-         local_path: './server.properties'
-         remote_path: './'
-         sftp_only: true
     
     - name: Create Release
       id: create_release
