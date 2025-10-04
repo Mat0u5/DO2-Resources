@@ -4,9 +4,9 @@
     "layer0": "minecraft:item/stick"
   },
   "overrides": [
-    { "predicate": {"custom_model_data": 1}, "model": "custom:item/s10/hungry_hermits/broom"},
-    { "predicate": {"custom_model_data": 2}, "model": "custom:item/s10/hungry_hermits/phone"},
-    { "predicate": {"custom_model_data": 3}, "model": "custom:item/s10/hungry_hermits/phone2"},
+    { "predicate": {"custom_model_data": 1}, "model": "custom:item/s10/hungryhermits/broom"},
+    { "predicate": {"custom_model_data": 2}, "model": "custom:item/s10/hungryhermits/phone"},
+    { "predicate": {"custom_model_data": 3}, "model": "custom:item/s10/hungryhermits/phone2"},
     { "predicate": {"custom_model_data": 4}, "model": "custom:item/s10/locked_slot"},
     { "predicate": {"custom_model_data": 5}, "model": "custom:item/s10/briefcase_still"}
 
