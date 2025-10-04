@@ -127,7 +127,11 @@
         {"predicate": {"custom_model_data":124}, "model": "custom:item/do/hats/bill_hat"},
         {"predicate": {"custom_model_data":125}, "model": "custom:item/gun/gun_to_head"},
 	{"predicate": {"custom_model_data":126}, "model": "custom:item/tcg/tcgi_new"},
-
+	{"predicate": {"custom_model_data":127}, "model": "custom:item/do/hats/flower_crown"},
+	{"predicate": {"custom_model_data":128}, "model": "custom:item/do/hats/sunglasses_cap"},
+	{"predicate": {"custom_model_data":129}, "model": "custom:item/do/hats/mail_cap"},
+	{"predicate": {"custom_model_data":130}, "model": "custom:item/s10/hungryhermits/toque"},
+	{"predicate": {"custom_model_data":131}, "model": "custom:item/s10/hungryhermits/bandana"},
 
         {"predicate": {"custom_model_data":400}, "model": "custom:item/tcg/misc/birda"},
 
