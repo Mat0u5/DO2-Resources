@@ -1179,6 +1179,11 @@
             "tcg/evil_x_boss/tcg.evilx.sound_debug"
         ]
    },
+    "tcg.evil_x.attack_afk": {
+        "sounds": [
+            "tcg/evil_x_boss/tcg.evilx.20_afk"
+        ]
+   },
     "tcg.bus_stop.fnaf_toreador": {
         "sounds": [
             "tcg/bus_stops/tcg.bus_stop.toreador"
@@ -1202,6 +1207,241 @@
     "tcg.secret.fountain_make": {
         "sounds": [
             "tcg/misc/tcg.secret.fountain_make"
+        ]
+   },
+    "hh.add_table": {
+        "sounds": [
+            "hh/hh.add_table"
+        ]
+   },
+    "hh.alarm": {
+        "sounds": [
+            "hh/hh.alarm"
+        ]
+   },
+    "hh.wrong": {
+        "sounds": [
+            "hh/hh.bad"
+        ]
+   },
+    "hh.upgrade_confirm": {
+        "sounds": [
+            "hh/hh.confirm_upgrade"
+        ]
+   },
+    "hh.crafting": {
+        "sounds": [
+            "hh/hh.crafting"
+        ]
+   },
+    "hh.fed_cust": {
+        "sounds": [
+            "hh/hh.customer_fed"
+        ]
+   },
+    "hh.sat_cust": {
+        "sounds": [
+            "hh/hh.customer_sat"
+        ]
+   },
+    "hh.d1-2.amb": {
+        "sounds": [
+            "hh/hh.d1-2.amb"
+        ]
+   },
+    "hh.d1-2.lose": {
+        "sounds": [
+            "hh/hh.d1-2.lose"
+        ]
+   },
+    "hh.d1-2.win": {
+        "sounds": [
+            "hh/hh.d1-2.win"
+        ]
+   },
+    "hh.d3-4.amb": {
+        "sounds": [
+            "hh/hh.d3-4.amb"
+        ]
+   },
+    "hh.d3-4.lose": {
+        "sounds": [
+            "hh/hh.d3-4.lose"
+        ]
+   },
+    "hh.d3-4.win": {
+        "sounds": [
+            "hh/hh.d3-4.win"
+        ]
+   },
+    "hh.d5-6.amb": {
+        "sounds": [
+            "hh/hh.d5-6.amb"
+        ]
+   },
+    "hh.d5-6.lose": {
+        "sounds": [
+            "hh/hh.d5-6.lose"
+        ]
+   },
+    "hh.d5-6.win": {
+        "sounds": [
+            "hh/hh.d5-6.win"
+        ]
+   },
+    "hh.d7-8.amb": {
+        "sounds": [
+            "hh/hh.d7-8.amb"
+        ]
+   },
+    "hh.d7-8.lose": {
+        "sounds": [
+            "hh/hh.d7-8.lose"
+        ]
+   },
+    "hh.d7-8.win": {
+        "sounds": [
+            "hh/hh.d7-8.win"
+        ]
+   },
+    "hh.day_start": {
+        "sounds": [
+            "hh/hh.day_start"
+        ]
+   },
+    "hh.glass_knock": {
+        "sounds": [
+            "hh/hh.glass_knock"
+        ]
+   },
+    "hh.frame_add": {
+        "sounds": [
+            "hh/hh.item_frame_add"
+        ]
+   },
+    "hh.farm_door": {
+        "sounds": [
+            "hh/hh.open_farm_door"
+        ]
+   },
+    "hh.dial_phone": {
+        "sounds": [
+            "hh/hh.phone_dial"
+        ]
+   },
+    "hh.phone_gib": {
+        "sounds": [
+            "hh/hh.phone_gibberish"
+        ]
+   },
+    "hh.point_add": {
+        "sounds": [
+            "hh/hh.point_add"
+        ]
+   },
+    "hh.point_sub": {
+        "sounds": [
+            "hh/hh.point_sub"
+        ]
+   },
+    "hh.rats": {
+        "sounds": [
+            "hh/hh.rats"
+        ]
+   },
+    "hh.morn_start": {
+        "sounds": [
+            "hh/hh.rooster_call"
+        ]
+   },
+    "hh.tele_ring": {
+        "sounds": [
+            "hh/hh.tele_ring"
+        ]
+   },
+    "hh.upgrade_earn": {
+        "sounds": [
+            "hh/hh.upgrade_found"
+        ]
+   },
+    "hh.valve_steam": {
+        "sounds": [
+            "hh/hh.valve_room"
+        ]
+   },
+    "hh.valve1": {
+        "sounds": [
+            "hh/hh.valve1"
+        ]
+   },
+    "hh.valve2": {
+        "sounds": [
+            "hh/hh.valve2"
+        ]
+   },
+    "hh.valve3": {
+        "sounds": [
+            "hh/hh.valve3"
+        ]
+   },
+    "hh.valve4": {
+        "sounds": [
+            "hh/hh.valve4"
+        ]
+   },
+    "hh.valve5": {
+        "sounds": [
+            "hh/hh.valve5"
+        ]
+   },
+    "hh.valve6": {
+        "sounds": [
+            "hh/hh.valve6"
+        ]
+   },
+    "hh.anger1": {
+        "sounds": [
+            "hh/hh.angry1"
+        ]
+   },
+    "hh.anger2": {
+        "sounds": [
+            "hh/hh.angry2"
+        ]
+   },
+    "hh.anger3": {
+        "sounds": [
+            "hh/hh.angry3"
+        ]
+   },
+    "hh.anger4": {
+        "sounds": [
+            "hh/hh.angry4"
+        ]
+   },
+    "hh.anger5": {
+        "sounds": [
+            "hh/hh.angry5"
+        ]
+   },
+    "hh.anger6": {
+        "sounds": [
+            "hh/hh.angry6"
+        ]
+   },
+    "hh.anger7": {
+        "sounds": [
+            "hh/hh.angry7"
+        ]
+   },
+    "hh.anger8": {
+        "sounds": [
+            "hh/hh.angry8"
+        ]
+   },
+    "hh.forgiveness": {
+        "sounds": [
+            "hh/hh.forgiveness"
         ]
    }
 
