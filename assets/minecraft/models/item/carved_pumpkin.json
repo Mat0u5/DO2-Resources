@@ -134,6 +134,8 @@
 	{"predicate": {"custom_model_data":131}, "model": "custom:item/s10/hungryhermits/bandana"},
    	{ "predicate": {"custom_model_data": 132}, "model": "custom:item/s10/hungryhermits/phone"},
     	{ "predicate": {"custom_model_data": 133}, "model": "custom:item/s10/hungryhermits/phone2"},
+    	{ "predicate": {"custom_model_data": 134}, "model": "custom:item/do/hats/freddy_mask"},
+    	{ "predicate": {"custom_model_data": 135}, "model": "custom:item/do/hats/bonnie_ears"},
 
         {"predicate": {"custom_model_data":400}, "model": "custom:item/tcg/misc/birda"},
 
