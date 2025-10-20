@@ -136,8 +136,12 @@
     	{ "predicate": {"custom_model_data": 133}, "model": "custom:item/s10/hungryhermits/phone2"},
     	{ "predicate": {"custom_model_data": 134}, "model": "custom:item/do/hats/freddy_mask"},
     	{ "predicate": {"custom_model_data": 135}, "model": "custom:item/do/hats/bonnie_ears"},
+    	{ "predicate": {"custom_model_data": 135}, "model": "custom:item/do/deco/sewing"},
 
         {"predicate": {"custom_model_data":400}, "model": "custom:item/tcg/misc/birda"},
+        {"predicate": {"custom_model_data":401}, "model": "custom:item/s10/mace_race/bouncepad_target"},
+        {"predicate": {"custom_model_data":402}, "model": "custom:item/s10/mace_race/bouncepad_target_2"},
+        {"predicate": {"custom_model_data":403}, "model": "custom:item/s10/mace_race/x_rank_mace"},
 
     {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}
   ]
