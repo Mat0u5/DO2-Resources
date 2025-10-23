@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom:item/do/hats/freddy_mask",
-		"particle": "custom:item/do/hats/freddy_mask"
+		"0": "custom:item/do/hats/halloween/freddy_mask",
+		"particle": "custom:item/do/hats/halloween/freddy_mask"
 	},
 	"elements": [
 		{
