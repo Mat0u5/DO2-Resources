@@ -144,7 +144,12 @@
         {"predicate": {"custom_model_data":402}, "model": "custom:item/s10/mace_race/bouncepad_target_2"},
         {"predicate": {"custom_model_data":403}, "model": "custom:item/s10/mace_race/x_rank_mace"},
 
-        {"predicate": {"custom_model_data":500}, "model": "custom:item/do/hats/halloween/ontenna/ont_colortest"},
+        {"predicate": {"custom_model_data":600}, "model": "custom:item/do/hats/halloween/ontenna/ont_colortest"},
+        {"predicate": {"custom_model_data":601}, "model": "custom:item/do/hats/halloween/ontenna/ont_static"},
+        {"predicate": {"custom_model_data":602}, "model": "custom:item/do/hats/halloween/ontenna/ont_face2d_1"},
+        {"predicate": {"custom_model_data":603}, "model": "custom:item/do/hats/halloween/ontenna/ont_disappointed"},
+        {"predicate": {"custom_model_data":604}, "model": "custom:item/do/hats/halloween/ontenna/ont_bb"},
+        {"predicate": {"custom_model_data":605}, "model": "custom:item/do/hats/halloween/ontenna/ont_off"},
 
 
     {"predicate": {"custom_model_data":1111}, "model": "custom:item/do/custom_items/burnt_item"}

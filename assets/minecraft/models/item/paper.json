@@ -5,6 +5,12 @@
   },
   "overrides": [
     {"predicate": {"custom_model_data":1}, "model": "custom:item/do/custom_items/silk_cloth"},
+    {"predicate": {"custom_model_data":2}, "model": "custom:item/do/hats/spools/common_spool"},
+    {"predicate": {"custom_model_data":3}, "model": "custom:item/do/hats/spools/uncommon_spool"},
+    {"predicate": {"custom_model_data":4}, "model": "custom:item/do/hats/spools/rare_spool"},
+    {"predicate": {"custom_model_data":5}, "model": "custom:item/do/hats/spools/legendary_spool"},
+
+
     {"predicate": {"custom_model_data":100}, "model": "custom:item/monopoly/andesite"},
     {"predicate": {"custom_model_data":101}, "model": "custom:item/monopoly/basalt"},
     {"predicate": {"custom_model_data":102}, "model": "custom:item/monopoly/blackstone"},
