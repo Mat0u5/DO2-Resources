@@ -138,6 +138,7 @@
     	{ "predicate": {"custom_model_data": 135}, "model": "custom:item/do/hats/halloween/bonnie_ears"},
     	{ "predicate": {"custom_model_data": 136}, "model": "custom:item/do/deco/sewing"},
     	{ "predicate": {"custom_model_data": 137}, "model": "custom:item/do/hats/halloween/pumpkin_hat"},
+    	{ "predicate": {"custom_model_data": 138}, "model": "custom:item/do/hats/kalrose"},
 
         {"predicate": {"custom_model_data":400}, "model": "custom:item/tcg/misc/birda"},
         {"predicate": {"custom_model_data":401}, "model": "custom:item/s10/mace_race/bouncepad_target"},
