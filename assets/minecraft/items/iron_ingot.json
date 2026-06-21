@@ -1,0 +1,27 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/iron_ingot"
+        },
+        "entries": [
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/toolbox"
+                }
+            },
+            {
+                "threshold": 1111,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/burnt_item"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "custom:items/tcg/cards/card_generic",
+	"textures": {
+		"front": "custom:item/tcg/cards/health_cards/health_220"
+	}
+}

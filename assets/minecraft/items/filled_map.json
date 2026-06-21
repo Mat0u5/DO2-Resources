@@ -1,0 +1,1910 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/filled_map"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_10"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_20"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_30"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_40"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_50"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_60"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_70"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_80"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_90"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_100"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_110"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_120"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_130"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_140"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_150"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_160"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_170"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_180"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_190"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_200"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_210"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_220"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_230"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_240"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_250"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_260"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_270"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_280"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_290"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/health_cards/health_300"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/balanced"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/builder"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/explorer"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/farm"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/miner"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/prankster"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/pvp"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/redstoner"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/speedrunner"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/single/terraformer"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/balanced"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/builder"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/explorer"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/farm"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/miner"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/prankster"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/pvp"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/redstoner"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/speedrunner"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/items/double/terraformer"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/bdubs"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/beef"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/cleo"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/cubfan"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/docm"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/etho"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/false"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/gem"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/grian"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/hypno"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/impulse"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/steve"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/jevin"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/joehills"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/joel"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/keralis"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/mumbo"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/pearl"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/rendog"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/scar"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/skizz"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/stress"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/tango"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/tfc"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/wels"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/xb"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/xisuma"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/common/zed"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/bdubs"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/beef"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/cleo"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/cubfan"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/docm"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/etho"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/false"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/gem"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/grian"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/hypno"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/impulse"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/steve_r"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/jevin"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/joehills"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/joel"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/keralis"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/mumbo"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/pearl"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/rendog"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/scar"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/skizz"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/stress"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/tango"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/tfc"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/wels"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/xb"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/xisuma"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/rare/zed"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/bdubs"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/beef"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/cleo"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/cubfan"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/docm"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/etho"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/false"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/gem"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/grian"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/hypno"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/impulse"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/iskall"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/jevin"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/joehills"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/keralis"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/mumbo"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/pearl"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/rendog"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/scar"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/stress"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/tango"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/tfc"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/wels"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/ultra_rare/xb"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/jackblack"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/jackblack_r"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/5am_pearl"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/5am_pearl_r"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/beetlejhost"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/beetlejhost_r"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/boomer_bdubs"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/boomer_bdubs_r"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/convex_cub"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/convex_cub_r"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/dwarf_impulse"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/dwarf_impulse_r"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/evil_jevin"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/evil_jevin_r"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/evil_x"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/evil_x_r"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/frenchralis"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/frenchralis_r"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/g_architect"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/g_architect_r"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/goatfather"
+                }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/goatfather_r"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/helsknight"
+                }
+            },
+            {
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/helsknight_r"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/horse_head_hypno"
+                }
+            },
+            {
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/horse_head_hypno_r"
+                }
+            },
+            {
+                "threshold": 157,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/hotguy"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/hotguy_r"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/human_cleo"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/human_cleo_r"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/king_joel"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/king_joel_r"
+                }
+            },
+            {
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/llamadad"
+                }
+            },
+            {
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/llamadad_r"
+                }
+            },
+            {
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/original_xb"
+                }
+            },
+            {
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/original_xb_r"
+                }
+            },
+            {
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/overseer"
+                }
+            },
+            {
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/overseer_r"
+                }
+            },
+            {
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/poe_skizz"
+                }
+            },
+            {
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/poe_skizz_r"
+                }
+            },
+            {
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/potato_mumbo"
+                }
+            },
+            {
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/potato_mumbo_r"
+                }
+            },
+            {
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/poultry_man"
+                }
+            },
+            {
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/poultry_man_r"
+                }
+            },
+            {
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/princess_gem"
+                }
+            },
+            {
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/princess_gem_r"
+                }
+            },
+            {
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/renbob"
+                }
+            },
+            {
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/renbob_r"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/shade_e_e"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/shade_e_e_r"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/spooky_stress"
+                }
+            },
+            {
+                "threshold": 182,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/spooky_stress_r"
+                }
+            },
+            {
+                "threshold": 183,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/steampunk_tango"
+                }
+            },
+            {
+                "threshold": 184,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/steampunk_tango_r"
+                }
+            },
+            {
+                "threshold": 185,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/worm_man"
+                }
+            },
+            {
+                "threshold": 186,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/alter_ego/worm_man_r"
+                }
+            },
+            {
+                "threshold": 187,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/ontimoose"
+                }
+            },
+            {
+                "threshold": 188,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/mat0u5"
+                }
+            },
+            {
+                "threshold": 189,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/simple"
+                }
+            },
+            {
+                "threshold": 190,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/garibaldi"
+                }
+            },
+            {
+                "threshold": 191,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/zizola"
+                }
+            },
+            {
+                "threshold": 192,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/shiny_kyuu"
+                }
+            },
+            {
+                "threshold": 193,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/mrstuff"
+                }
+            },
+            {
+                "threshold": 194,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/nicky"
+                }
+            },
+            {
+                "threshold": 195,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/hazel"
+                }
+            },
+            {
+                "threshold": 196,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/bigbrother"
+                }
+            },
+            {
+                "threshold": 197,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/bigbrother_boss"
+                }
+            },
+            {
+                "threshold": 198,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/mat0u6"
+                }
+            },
+            {
+                "threshold": 199,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/molten_machine"
+                }
+            },
+            {
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/custom/mrdungeon"
+                }
+            },
+            {
+                "threshold": 245,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/error/bdubs"
+                }
+            },
+            {
+                "threshold": 246,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/error/grian"
+                }
+            },
+            {
+                "threshold": 247,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/error/jevin"
+                }
+            },
+            {
+                "threshold": 248,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/error/pearl"
+                }
+            },
+            {
+                "threshold": 249,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/hermits/error/scar"
+                }
+            },
+            {
+                "threshold": 250,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/binding"
+                }
+            },
+            {
+                "threshold": 251,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/bow"
+                }
+            },
+            {
+                "threshold": 252,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/chainmail_chestplate"
+                }
+            },
+            {
+                "threshold": 253,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/chorus_fruit"
+                }
+            },
+            {
+                "threshold": 254,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/composter"
+                }
+            },
+            {
+                "threshold": 255,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/ender_pearl"
+                }
+            },
+            {
+                "threshold": 256,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/fire_charge"
+                }
+            },
+            {
+                "threshold": 257,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/flint_and_steel"
+                }
+            },
+            {
+                "threshold": 258,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/gold_chestplate"
+                }
+            },
+            {
+                "threshold": 259,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/instant_health_1"
+                }
+            },
+            {
+                "threshold": 260,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/iron_chestplate"
+                }
+            },
+            {
+                "threshold": 261,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/iron_sword"
+                }
+            },
+            {
+                "threshold": 262,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/lead"
+                }
+            },
+            {
+                "threshold": 263,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/lightning_rod"
+                }
+            },
+            {
+                "threshold": 264,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/milk_bucket"
+                }
+            },
+            {
+                "threshold": 265,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/piston"
+                }
+            },
+            {
+                "threshold": 266,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/shield"
+                }
+            },
+            {
+                "threshold": 267,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/splash_healing_1"
+                }
+            },
+            {
+                "threshold": 268,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/splash_slowness"
+                }
+            },
+            {
+                "threshold": 269,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/splash_weakness"
+                }
+            },
+            {
+                "threshold": 270,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/thorns_1"
+                }
+            },
+            {
+                "threshold": 271,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/tnt"
+                }
+            },
+            {
+                "threshold": 272,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/vanishing"
+                }
+            },
+            {
+                "threshold": 273,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/common/water_bucket"
+                }
+            },
+            {
+                "threshold": 280,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/anvil"
+                }
+            },
+            {
+                "threshold": 281,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/bad_omen"
+                }
+            },
+            {
+                "threshold": 282,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/chest"
+                }
+            },
+            {
+                "threshold": 283,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/command_block"
+                }
+            },
+            {
+                "threshold": 284,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/crossbow"
+                }
+            },
+            {
+                "threshold": 285,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/diamond_chestplate"
+                }
+            },
+            {
+                "threshold": 286,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/diamond_sword"
+                }
+            },
+            {
+                "threshold": 287,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/efficiency"
+                }
+            },
+            {
+                "threshold": 288,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/egg"
+                }
+            },
+            {
+                "threshold": 289,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/emerald"
+                }
+            },
+            {
+                "threshold": 290,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/golden_axe"
+                }
+            },
+            {
+                "threshold": 291,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/instant_health_2"
+                }
+            },
+            {
+                "threshold": 292,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/invisibility"
+                }
+            },
+            {
+                "threshold": 293,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/knockback"
+                }
+            },
+            {
+                "threshold": 294,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/lava_bucket"
+                }
+            },
+            {
+                "threshold": 295,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/looting"
+                }
+            },
+            {
+                "threshold": 296,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/loyalty"
+                }
+            },
+            {
+                "threshold": 297,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/splash_healing_2"
+                }
+            },
+            {
+                "threshold": 298,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/splash_poison_1"
+                }
+            },
+            {
+                "threshold": 299,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/spyglass"
+                }
+            },
+            {
+                "threshold": 300,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/string"
+                }
+            },
+            {
+                "threshold": 301,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/target_block"
+                }
+            },
+            {
+                "threshold": 302,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/thorns_2"
+                }
+            },
+            {
+                "threshold": 303,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/trident"
+                }
+            },
+            {
+                "threshold": 304,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/turtle_shell"
+                }
+            },
+            {
+                "threshold": 305,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/rare/wolf"
+                }
+            },
+            {
+                "threshold": 315,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/armor_stand"
+                }
+            },
+            {
+                "threshold": 316,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/bed"
+                }
+            },
+            {
+                "threshold": 317,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/clock"
+                }
+            },
+            {
+                "threshold": 318,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/fishing_rod"
+                }
+            },
+            {
+                "threshold": 319,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/fortune"
+                }
+            },
+            {
+                "threshold": 320,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/golden_apple"
+                }
+            },
+            {
+                "threshold": 321,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/ladder"
+                }
+            },
+            {
+                "threshold": 322,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/mending"
+                }
+            },
+            {
+                "threshold": 323,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/netherite_chestplate"
+                }
+            },
+            {
+                "threshold": 324,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/netherite_sword"
+                }
+            },
+            {
+                "threshold": 325,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/sweeping_edge"
+                }
+            },
+            {
+                "threshold": 326,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/thorns_3"
+                }
+            },
+            {
+                "threshold": 327,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/ultra_rare/totem_of_undying"
+                }
+            },
+            {
+                "threshold": 998,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/burn_card"
+                }
+            },
+            {
+                "threshold": 999,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/effects/poison_card"
+                }
+            },
+            {
+                "threshold": 1000,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/card_back"
+                }
+            }
+        ]
+    }
+}

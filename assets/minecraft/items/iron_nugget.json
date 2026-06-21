@@ -1,0 +1,1483 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/iron_nugget"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_coin"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_crown"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_ember"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_key"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_ticket"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_tome"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_shard"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_tome3"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/do_tome5"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/pocketwatchofshreep"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/rocketship"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/chiseloftheundeadsculptress"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/goathorns"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/tntslab"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/gogglesofsymmetry"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/gemofgreatness"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/multigrainwaffle"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/hypnoticbandanna"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/goldeneye"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/omegaeyeofdoom"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/token"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/do_casual1_1"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/do_casual1_2"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/do_casual2"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/do_deadlock"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/deepslate_diamond_ore"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/les_go"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/jarofswiftslime"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/lorebook"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/pappaslippers"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/hiddenstash"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/lunarpearl"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/doggoneshades"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/deathloop"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/wandofgorgeousness"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/adequatemug"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/themasterskey"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/skadoodler"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/anoldfriendspickaxe"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/butchersapron"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/knightshelm"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/hoodofawyeh"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/axeofthevoid"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/crookofthepinkshepherd"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/ontiball"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/notes"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/cloak"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/tie"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/hauntertrigger"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/chip"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/superspanner"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/doormat"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/citadellaptop"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/glitchcoin"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/ironfist"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/payday"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/artifacts/stopwatch"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/stumble"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/sneak"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/treasure_hunter"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/ember_seeker"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/stability"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/moment_of_clarity"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/pay_to_win"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/tactical_approach"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/pork_chop_power"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/evasion"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/loot_and_scoot"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/frost_focus"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/tread_lightly"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/second_wind"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/beast_sense"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/bounding_strides"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/sprint"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/smash_and_grab"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/reckless_charge"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/nimble_looting"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/quickstep"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/suit_up"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/adrenaline_rush"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/swagger"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/speed_run"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/eerie_silence"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/chill_step"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/dungeon_repairs"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/eyes_on_the_prize"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/pirate_booty"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/cold_snap"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/silent_runner"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/fuzzy_bunny_slippers"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/deepfrost"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/brilliance"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/boots_of_striding"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/glorious_moment"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/cash_cow"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/avalanche"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/beast_master"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/dungeon_lackey"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/revelation"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/enlightenment"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/eureka"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/ambrosia"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/bb_slippers"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/delving_grace"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/blank"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/reversal"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/rot"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/swift_descent"
+                }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/tippy_toes"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/one_for_the_road"
+                }
+            },
+            {
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/ravenous_inclination"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/citadel_champion"
+                }
+            },
+            {
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/greedy_eyes"
+                }
+            },
+            {
+                "threshold": 157,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/stride_with_pride"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/eviction"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/frozen_frenzy"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/disappearing_act"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/gamblers_paradise"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/zoltraak"
+                }
+            },
+            {
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/all_seeing_eye"
+                }
+            },
+            {
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/spirit_sense"
+                }
+            },
+            {
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/frozen_tears"
+                }
+            },
+            {
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/sneaky_pants"
+                }
+            },
+            {
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/risky_reserves"
+                }
+            },
+            {
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/decay"
+                }
+            },
+            {
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/composure"
+                }
+            },
+            {
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/consolidation"
+                }
+            },
+            {
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/equilibrium"
+                }
+            },
+            {
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/serene_safety"
+                }
+            },
+            {
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/feeding_frenzy"
+                }
+            },
+            {
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/restoring_veil"
+                }
+            },
+            {
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/haste"
+                }
+            },
+            {
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/finders_keepers"
+                }
+            },
+            {
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/hopscotch"
+                }
+            },
+            {
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/in_n_out"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/package_deal"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/safe_and_sound"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/scatter"
+                }
+            },
+            {
+                "threshold": 182,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/spend_money"
+                }
+            },
+            {
+                "threshold": 183,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/the_gun_show"
+                }
+            },
+            {
+                "threshold": 184,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/well_fed"
+                }
+            },
+            {
+                "threshold": 185,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/cards/trailblazer"
+                }
+            },
+            {
+                "threshold": 198,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/staircase1"
+                }
+            },
+            {
+                "threshold": 199,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/staircase2"
+                }
+            },
+            {
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/staircase3"
+                }
+            },
+            {
+                "threshold": 201,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/do_key1"
+                }
+            },
+            {
+                "threshold": 202,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/do_key2"
+                }
+            },
+            {
+                "threshold": 203,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/do_key4"
+                }
+            },
+            {
+                "threshold": 204,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/do_key5"
+                }
+            },
+            {
+                "threshold": 205,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/pirate"
+                }
+            },
+            {
+                "threshold": 206,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/broken"
+                }
+            },
+            {
+                "threshold": 207,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/bomb"
+                }
+            },
+            {
+                "threshold": 208,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/do_key3"
+                }
+            },
+            {
+                "threshold": 209,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/keys/do_key6"
+                }
+            },
+            {
+                "threshold": 210,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/do_coin"
+                }
+            },
+            {
+                "threshold": 211,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/ravagers_tooth"
+                }
+            },
+            {
+                "threshold": 212,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/wine_bottle"
+                }
+            },
+            {
+                "threshold": 213,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/warden_antennae"
+                }
+            },
+            {
+                "threshold": 214,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/do_gem"
+                }
+            },
+            {
+                "threshold": 215,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/gold_bucket"
+                }
+            },
+            {
+                "threshold": 216,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/warden_heart"
+                }
+            },
+            {
+                "threshold": 217,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/iron_rose"
+                }
+            },
+            {
+                "threshold": 218,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/empty_bottle"
+                }
+            },
+            {
+                "threshold": 219,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/do_eternal_flame"
+                }
+            },
+            {
+                "threshold": 220,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/broken_trident"
+                }
+            },
+            {
+                "threshold": 221,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/kyuu1"
+                }
+            },
+            {
+                "threshold": 222,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/kyuu2"
+                }
+            },
+            {
+                "threshold": 223,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/alarm"
+                }
+            },
+            {
+                "threshold": 500,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/commons_stack"
+                }
+            },
+            {
+                "threshold": 501,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/uncommons_stack"
+                }
+            },
+            {
+                "threshold": 502,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/rares_stack"
+                }
+            },
+            {
+                "threshold": 503,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/legendaries_stack"
+                }
+            },
+            {
+                "threshold": 504,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/all_stack"
+                }
+            },
+            {
+                "threshold": 505,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/all_pile"
+                }
+            },
+            {
+                "threshold": 506,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/ethereal_cards"
+                }
+            },
+            {
+                "threshold": 507,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/cardback"
+                }
+            },
+            {
+                "threshold": 508,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/unknown_cards_1"
+                }
+            },
+            {
+                "threshold": 509,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/unknown_cards_2"
+                }
+            },
+            {
+                "threshold": 510,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/unknown_cards_3"
+                }
+            },
+            {
+                "threshold": 511,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/unknown_cards_4"
+                }
+            },
+            {
+                "threshold": 512,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/shards_3"
+                }
+            },
+            {
+                "threshold": 513,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/shards_5"
+                }
+            },
+            {
+                "threshold": 514,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/shards_7"
+                }
+            },
+            {
+                "threshold": 515,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/shards_10"
+                }
+            },
+            {
+                "threshold": 516,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/clank"
+                }
+            },
+            {
+                "threshold": 517,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/hazard"
+                }
+            },
+            {
+                "threshold": 518,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/coin"
+                }
+            },
+            {
+                "threshold": 519,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/gui/button_checked"
+                }
+            },
+            {
+                "threshold": 520,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/gui/button_unchecked"
+                }
+            },
+            {
+                "threshold": 521,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/gui/cursor"
+                }
+            },
+            {
+                "threshold": 522,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/gui/cursor_click"
+                }
+            },
+            {
+                "threshold": 523,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/gui/hardcore_heart"
+                }
+            },
+            {
+                "threshold": 524,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/gui/hardcore_abs_heart"
+                }
+            },
+            {
+                "threshold": 600,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/tcg_trophy"
+                }
+            },
+            {
+                "threshold": 601,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/tcg_prize_evilx"
+                }
+            },
+            {
+                "threshold": 602,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/tcgpyramid"
+                }
+            },
+            {
+                "threshold": 603,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/crystal_trophy"
+                }
+            },
+            {
+                "threshold": 604,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/finaltrophy"
+                }
+            },
+            {
+                "threshold": 605,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/tcgi_new"
+                }
+            },
+            {
+                "threshold": 606,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/misc/blue_skull"
+                }
+            },
+            {
+                "threshold": 607,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/misc/rotom_eye"
+                }
+            },
+            {
+                "threshold": 608,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/tcgi_preview"
+                }
+            },
+            {
+                "threshold": 609,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/misc/bird"
+                }
+            },
+            {
+                "threshold": 610,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/holo_test"
+                }
+            },
+            {
+                "threshold": 611,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/misc/spiritomb"
+                }
+            },
+            {
+                "threshold": 612,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/misc/id_card"
+                }
+            },
+            {
+                "threshold": 613,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/misc/pale_sign"
+                }
+            },
+            {
+                "threshold": 1000,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/tcg/cards/holo_card"
+                }
+            },
+            {
+                "threshold": 1027,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/loot_spawner"
+                }
+            },
+            {
+                "threshold": 1111,
+                "model": {
+                    "type": "model",
+                    "model": "custom:items/do/custom_items/burnt_item"
+                }
+            }
+        ]
+    }
+}
