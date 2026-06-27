@@ -180,37 +180,6 @@
 				"": 1
 			},
 			{
-				"threshold": 1,
-				"model": {
-					"type": "minecraft:condition",
-					"property": "minecraft:component",
-					"predicate": "minecraft:bundle_contents",
-					"value": {
-						"items": {
-							"contains": [],
-							"count": [],
-							"size": {
-								"min": 1
-							}
-						}
-					},
-					"on_true": {
-						"type": "minecraft:model",
-						"model": "custom:items/tcg/bundle/binder_empty"
-					},
-					"on_false": {
-						"type": "minecraft:model",
-						"model": "custom:items/tcg/bundle/binder_empty"
-					}
-				}
-			},
-			{
-				"threshold": 0,
-				"model": {
-					"type": "minecraft:bundle/selected_item"
-				}
-			},
-			{
 				"threshold": 8,
 				"model": {
 					"type": "minecraft:condition",
@@ -337,5 +306,6 @@
 			"model": "minecraft:item/bundle"
 		}
 	},
+	"hand_animation_on_swap": false,
 	"oversized_in_gui": true
 }
