@@ -1,0 +1,341 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "minecraft:custom_model_data",
+		"entries": [
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_empty"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_empty"
+					}
+				}
+			},
+			{
+				"threshold": 2,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/do/custom_items/bundle/mail_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/do/custom_items/bundle/mail_empty"
+					}
+				}
+			},
+			{
+				"threshold": 3,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_balanced_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_balanced"
+					}
+				}
+			},
+			{
+				"threshold": 4,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_builder_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_builder"
+					}
+				}
+			},
+			{
+				"threshold": 5,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_explorer_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_explorer"
+					}
+				}
+			},
+			{
+				"threshold": 6,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_farm_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_farm"
+					}
+				}
+			},
+			{
+				"threshold": 7,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_empty"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_empty"
+					}
+				},
+				"": 1
+			},
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_empty"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_empty"
+					}
+				}
+			},
+			{
+				"threshold": 0,
+				"model": {
+					"type": "minecraft:bundle/selected_item"
+				}
+			},
+			{
+				"threshold": 8,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_prankster_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_prankster"
+					}
+				}
+			},
+			{
+				"threshold": 9,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_pvp_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_pvp"
+					}
+				}
+			},
+			{
+				"threshold": 10,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"contains": [],
+							"count": [],
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_redstone_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_redstone"
+					}
+				}
+			},
+			{
+				"threshold": 11,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_speedrunner_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_speedrunner"
+					}
+				}
+			},
+			{
+				"threshold": 12,
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:bundle_contents",
+					"value": {
+						"items": {
+							"size": {
+								"min": 1
+							}
+						}
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_terraformer_full"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "custom:items/tcg/bundle/binder_terraformer"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/bundle"
+		}
+	},
+	"oversized_in_gui": true
+}

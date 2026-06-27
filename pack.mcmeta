@@ -1,7 +1,8 @@
 {
    "pack":{
-      "pack_format":34,
       "description":"Decked Out 2 Resourcepack",
-	  "_credits": "Additional DO2 textures sounds provided by OntiMoose, Garibaldi, Mat0u5, simple_as_that"
+	  "_credits": "Additional DO2 textures sounds provided by OntiMoose, Garibaldi, Mat0u5, simple_as_that",
+     "min_format":[75],
+     "max_format":[85,0]
    }
 }

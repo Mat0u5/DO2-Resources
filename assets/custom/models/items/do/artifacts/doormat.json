@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "custom:item/do/artifacts/doormat"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [-10, -80, 10],
+			"translation": [-1, 4, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-5, 100, 0],
+			"translation": [-1, 4, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}
