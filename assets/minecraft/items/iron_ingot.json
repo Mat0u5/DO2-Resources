@@ -9,7 +9,7 @@
         },
         "entries": [
             {
-                "threshold": 2,
+                "threshold": 1,
                 "model": {
                     "type": "model",
                     "model": "custom:items/do/keys/toolbox"
