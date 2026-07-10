@@ -1,6 +1,7 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
+	"parent":"item/generated",
 	"textures": {
 		"2": "block/black_concrete"
 	},
