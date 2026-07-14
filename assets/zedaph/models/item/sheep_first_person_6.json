@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "zedaph:item/sheep_first_person_6"
+	},
+	"display": {
+		"firstperson_lefthand": {
+			"translation": [0.2, 5, 1],
+			"rotation": [-20, -30, -5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"translation": [0.2, 5, 1],
+			"rotation": [-20, -30, -5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"on_shelf": {
+			"translation": [0, 0, -3.5],
+			"rotation": [0, 0, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"fixed": {
+			"translation": [0, 0, 0],
+			"rotation": [0, 180, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

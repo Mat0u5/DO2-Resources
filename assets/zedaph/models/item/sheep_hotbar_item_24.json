@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "zedaph:item/sheep_hotbar_item_24"
+  }
+}
