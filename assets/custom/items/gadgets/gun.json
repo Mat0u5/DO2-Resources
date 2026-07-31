@@ -1,0 +1,54 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "custom:items/gun/new/gun_loaded1"
+				},
+				"when": "arrow"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "custom:items/gun/new/gun_loaded_2"
+				},
+				"when": "rocket"
+			}
+		],
+		"fallback": {
+			"type": "minecraft:condition",
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "custom:items/gun/new/gun"
+			},
+			"on_true": {
+				"type": "minecraft:range_dispatch",
+				"entries": [
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "custom:items/gun/new/gun_l1"
+						},
+						"threshold": 0.58
+					},
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "custom:items/gun/new/gun_l2"
+						},
+						"threshold": 1
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "custom:items/gun/new/gun_l0"
+				},
+				"property": "minecraft:crossbow/pull"
+			},
+			"property": "minecraft:using_item"
+		},
+		"property": "minecraft:charge_type"
+	}
+}

@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "gun_base",
-		"particle": "gun_base"
+		"0": "custom:item/gun/gun_base",
+		"particle": "custom:item/gun/gun_base"
 	},
 	"elements": [
 		{
