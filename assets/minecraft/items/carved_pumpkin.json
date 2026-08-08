@@ -974,6 +974,206 @@
 					"model": "custom:items/do/hats/kalrose"
 				}
 			},
+
+
+
+			{
+				"threshold": 139,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_1"
+				}
+			},
+			{
+				"threshold": 140,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_1_gray"
+				}
+			},
+			{
+				"threshold": 141,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_2"
+				}
+			},
+			{
+				"threshold": 142,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_2_gray"
+				}
+			},
+			{
+				"threshold": 143,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_3"
+				}
+			},
+			{
+				"threshold": 144,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_3_gray"
+				}
+			},
+			{
+				"threshold": 145,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_4"
+				}
+			},
+			{
+				"threshold": 146,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_4_gray"
+				}
+			},
+			{
+				"threshold": 147,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_5"
+				}
+			},
+			{
+				"threshold": 148,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_5_gray"
+				}
+			},
+			{
+				"threshold": 149,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_6"
+				}
+			},
+			{
+				"threshold": 150,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_6_gray"
+				}
+			},
+			{
+				"threshold": 151,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_7"
+				}
+			},
+			{
+				"threshold": 152,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_7_gray"
+				}
+			},
+			{
+				"threshold": 153,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_8"
+				}
+			},
+			{
+				"threshold": 154,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_8_gray"
+				}
+			},
+			{
+				"threshold": 155,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_9"
+				}
+			},
+			{
+				"threshold": 156,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_9_gray"
+				}
+			},
+			{
+				"threshold": 157,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_apple"
+				}
+			},
+			{
+				"threshold": 158,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_armadillo"
+				}
+			},
+			{
+				"threshold": 159,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_elder_guardian"
+				}
+			},
+			{
+				"threshold": 160,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_ender"
+				}
+			},
+			{
+				"threshold": 161,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_firework"
+				}
+			},
+			{
+				"threshold": 162,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_guardian"
+				}
+			},
+			{
+				"threshold": 163,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_mace_gray"
+				}
+			},
+			{
+				"threshold": 164,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_stone"
+				}
+			},
+			{
+				"threshold": 165,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_torch"
+				}
+			},
+			{
+				"threshold": 166,
+				"model": {
+					"type": "model",
+					"model": "custom:items/s10/trophies/x_rank_frog"
+				}
+			},
+			
 			{
 				"threshold": 400,
 				"model": {

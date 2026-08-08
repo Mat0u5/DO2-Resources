@@ -1,4 +1,15 @@
 {
+"weather.rain": {
+        "sounds":[
+            {"name":"ambient\/weather\/rain1","volume":0.05},{"name":"ambient\/weather\/rain2","volume":0.05},{"name":"ambient\/weather\/rain3","volume":0.05},{"name":"ambient\/weather\/rain4","volume":0.05},{"name":"ambient\/weather\/rain5","volume":0.05},{"name":"ambient\/weather\/rain6","volume":0.05},{"name":"ambient\/weather\/rain7","volume":0.05},{"name":"ambient\/weather\/rain8","volume":0.05}],
+            "replace":true,
+            "subtitle":"subtitles.weather.rain"},
+"weather.rain.above": {
+        "sounds":[
+            {"name":"ambient\/weather\/rain1","volume":0.05},{"name":"ambient\/weather\/rain2","volume":0.05},{"name":"ambient\/weather\/rain3","volume":0.05},{"name":"ambient\/weather\/rain4","volume":0.05}],
+            "replace":true,
+            "subtitle":"subtitles.weather.rain"},
+
  "do2.bridge_creak.1": {
          "sounds": [
              "do/ambience/bridge_creak/do2.bridge_creak.1"
@@ -1442,6 +1453,98 @@
     "hh.forgiveness": {
         "sounds": [
             "hh/hh.forgiveness"
+        ]
+   },
+
+
+    "ghastball.1_point": {
+        "sounds": [
+            "ghastketball/1_point"
+        ]
+   },
+    "ghastball.2_points": {
+        "sounds": [
+            "ghastketball/2_points"
+        ]
+   },
+    "ghastball.3_points": {
+        "sounds": [
+            "ghastketball/3_points"
+        ]
+   },
+    "ghastball.4_points": {
+        "sounds": [
+            "ghastketball/4_points"
+        ]
+   },
+    "ghastball.end_firstqrt": {
+        "sounds": [
+            "ghastketball/first_quarter_buzzer"
+        ]
+   },
+    "ghastball.end_secondqrt": {
+        "sounds": [
+            "ghastketball/halftime"
+        ]
+   },
+    "ghastball.end_thirdqrt": {
+        "sounds": [
+            "ghastketball/third_quarter_buzzer"
+        ]
+   },
+    "ghastball.end_fourthqrt": {
+        "sounds": [
+            "ghastketball/9_second_countdown"
+        ]
+   },
+    "ghastball.audience_cheer": {
+        "sounds": [
+            "ghastketball/audience_cheer"
+        ]
+   },
+    "ghastball.audience_chant": {
+        "sounds": [
+            "ghastketball/audience_singing"
+        ]
+   },
+    "ghastball.potion_reminder": {
+        "sounds": [
+            "ghastketball/potion_reminder"
+        ]
+   },
+    "ghastball.intro": {
+        "sounds": [
+            "ghastketball/intro"
+        ]
+   },
+    "ghastball.benched": {
+        "sounds": [
+            "ghastketball/benched"
+        ]
+   },
+    "ghastball.dribbling": {
+        "sounds": [
+            "ghastketball/dribbling"
+        ]
+   },
+    "ghastball.game_music_short": {
+        "sounds": [
+            "ghastketball/game_music_2"
+        ]
+   },
+    "ghastball.game_music_long": {
+        "sounds": [
+            "ghastketball/game_music_1"
+        ]
+   },
+    "ghastball.hustleback": {
+        "sounds": [
+            "ghastketball/hustleback"
+        ]
+   },
+    "ghastball.announcer_appraisal": {
+        "sounds": [
+            "ghastketball/weird_callout"
         ]
    }
 
