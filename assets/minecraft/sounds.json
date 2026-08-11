@@ -1546,6 +1546,37 @@
         "sounds": [
             "ghastketball/weird_callout"
         ]
+   },
+   
+    "peardle_song.1": {
+        "sounds": [
+            "peardle/peardle_beats"
+        ]
+   },
+    "peardle_song.2": {
+        "sounds": [
+            "peardle/peardle_fire_beats"
+        ]
+   },
+    "peardle_correct": {
+        "sounds": [
+            "peardle/peardle_correct"
+        ]
+   },
+    "peardle_incorrect": {
+        "sounds": [
+            "peardle/peardle_incorrect"
+        ]
+   },
+    "peardle_checking_guess": {
+        "sounds": [
+            "peardle/peardle_validating_answer"
+        ]
+   },
+    "rr.retro_remix": {
+        "sounds": [
+            "ravrush/rr_retro_remix"
+        ]
    }
 
 }
