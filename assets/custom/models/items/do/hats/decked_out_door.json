@@ -24,6 +24,9 @@
 		"ground": {
 			"translation": [0, 7.75, 0]
 		},
+		"gui": {
+			"scale": [0.75, 0.75, 0.75]
+		},
 		"head": {
 			"translation": [-44.5, -16, 0],
 			"scale": [3.2, 3.2, 3.3]
