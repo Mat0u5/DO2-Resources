@@ -1173,6 +1173,13 @@
 					"model": "custom:items/s10/trophies/x_rank_frog"
 				}
 			},
+			{
+				"threshold": 167,
+				"model": {
+					"type": "model",
+					"model": "custom:items/do/hats/halloween/skuld"
+				}
+			},
 			
 			{
 				"threshold": 400,
