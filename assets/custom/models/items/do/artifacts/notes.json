@@ -4,5 +4,11 @@
 	"parent": "minecraft:item/generated",
 	"textures": {
 		"layer0": "custom:item/do/artifacts/notes"
+	},
+	"display": {
+		"head": {
+			"translation": [0, -1.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
 	}
 }
