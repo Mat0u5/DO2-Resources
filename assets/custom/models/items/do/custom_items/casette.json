@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "custom:item/do/custom_items/casette"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.5, 0.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [0, -1.25, 0],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	}
+}
